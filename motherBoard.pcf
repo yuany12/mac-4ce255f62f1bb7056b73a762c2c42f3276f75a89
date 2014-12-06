@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Sat Dec 06 16:08:29 2014
+// Written by: Map P.20131013 on Sat Dec 06 16:34:09 2014
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -32,16 +32,6 @@ COMP "vgaR<0>" LOCATE = SITE "A7" LEVEL 1;
 COMP "vgaR<1>" LOCATE = SITE "C3" LEVEL 1;
 COMP "vgaR<2>" LOCATE = SITE "A4" LEVEL 1;
 COMP "wrn_1" LOCATE = SITE "U5" LEVEL 1;
-COMP "physical_mem_bus<0>" LOCATE = SITE "U13" LEVEL 1;
-COMP "physical_mem_bus<1>" LOCATE = SITE "T16" LEVEL 1;
-COMP "physical_mem_bus<2>" LOCATE = SITE "T15" LEVEL 1;
-COMP "physical_mem_bus<3>" LOCATE = SITE "T14" LEVEL 1;
-COMP "physical_mem_bus<4>" LOCATE = SITE "T12" LEVEL 1;
-COMP "physical_mem_bus<5>" LOCATE = SITE "R13" LEVEL 1;
-COMP "physical_mem_bus<6>" LOCATE = SITE "R14" LEVEL 1;
-COMP "physical_mem_bus<7>" LOCATE = SITE "R12" LEVEL 1;
-COMP "physical_mem_bus<8>" LOCATE = SITE "R11" LEVEL 1;
-COMP "physical_mem_bus<9>" LOCATE = SITE "R10" LEVEL 1;
 COMP "physical_mem_enable" LOCATE = SITE "N10" LEVEL 1;
 COMP "dataReady_1" LOCATE = SITE "A16" LEVEL 1;
 COMP "clkClick" LOCATE = SITE "U9" LEVEL 1;
@@ -75,20 +65,6 @@ COMP "physical_mem_addr<6>" LOCATE = SITE "R15" LEVEL 1;
 COMP "physical_mem_addr<7>" LOCATE = SITE "R16" LEVEL 1;
 COMP "physical_mem_addr<8>" LOCATE = SITE "R18" LEVEL 1;
 COMP "physical_mem_addr<9>" LOCATE = SITE "T17" LEVEL 1;
-COMP "physical_mem_bus<10>" LOCATE = SITE "P13" LEVEL 1;
-COMP "physical_mem_bus<11>" LOCATE = SITE "P12" LEVEL 1;
-COMP "physical_mem_bus<12>" LOCATE = SITE "P11" LEVEL 1;
-COMP "physical_mem_bus<13>" LOCATE = SITE "P10" LEVEL 1;
-COMP "physical_mem_bus<14>" LOCATE = SITE "N12" LEVEL 1;
-COMP "physical_mem_bus<15>" LOCATE = SITE "N11" LEVEL 1;
-COMP "ram1DataBus<0>" LOCATE = SITE "J12" LEVEL 1;
-COMP "ram1DataBus<1>" LOCATE = SITE "J13" LEVEL 1;
-COMP "ram1DataBus<2>" LOCATE = SITE "J14" LEVEL 1;
-COMP "ram1DataBus<3>" LOCATE = SITE "J15" LEVEL 1;
-COMP "ram1DataBus<4>" LOCATE = SITE "J16" LEVEL 1;
-COMP "ram1DataBus<5>" LOCATE = SITE "J17" LEVEL 1;
-COMP "ram1DataBus<6>" LOCATE = SITE "K12" LEVEL 1;
-COMP "ram1DataBus<7>" LOCATE = SITE "K13" LEVEL 1;
 NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
 SCHEMATIC END;
 

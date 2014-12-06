@@ -40,271 +40,85 @@ Data Sheet report:
 -----------------
 All values displayed in nanoseconds (ns)
 
-Setup/Hold to clock clk11M
---------------------+------------+------------+------------------+--------+
-                    |Max Setup to|Max Hold to |                  | Clock  |
-Source              | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
---------------------+------------+------------+------------------+--------+
-dataReady_1         |    4.190(R)|   -2.125(R)|clk11M_IBUF       |   0.000|
-                    |   11.056(F)|   -2.525(F)|clk11M_IBUF       |   0.000|
-physical_mem_bus<0> |    1.325(R)|    0.167(R)|clk11M_IBUF       |   0.000|
-                    |    1.325(F)|    0.167(F)|clk11M_IBUF       |   0.000|
-physical_mem_bus<1> |    1.816(R)|   -0.225(R)|clk11M_IBUF       |   0.000|
-                    |    1.816(F)|   -0.225(F)|clk11M_IBUF       |   0.000|
-physical_mem_bus<2> |    1.279(R)|    0.217(R)|clk11M_IBUF       |   0.000|
-                    |    1.715(F)|   -0.150(F)|clk11M_IBUF       |   0.000|
-physical_mem_bus<3> |    1.257(R)|    0.235(R)|clk11M_IBUF       |   0.000|
-                    |    1.375(F)|    0.123(F)|clk11M_IBUF       |   0.000|
-physical_mem_bus<4> |    1.359(R)|    0.135(R)|clk11M_IBUF       |   0.000|
-                    |    1.377(F)|    0.118(F)|clk11M_IBUF       |   0.000|
-physical_mem_bus<5> |    1.695(R)|   -0.133(R)|clk11M_IBUF       |   0.000|
-                    |    1.699(F)|   -0.139(F)|clk11M_IBUF       |   0.000|
-physical_mem_bus<6> |    1.589(R)|   -0.042(R)|clk11M_IBUF       |   0.000|
-                    |    1.431(F)|    0.077(F)|clk11M_IBUF       |   0.000|
-physical_mem_bus<7> |    0.681(R)|    0.684(R)|clk11M_IBUF       |   0.000|
-                    |    1.315(F)|    0.170(F)|clk11M_IBUF       |   0.000|
-physical_mem_bus<8> |    0.572(R)|    0.791(R)|clk11M_IBUF       |   0.000|
-                    |    1.026(F)|    0.404(F)|clk11M_IBUF       |   0.000|
-physical_mem_bus<9> |    1.123(R)|    0.349(R)|clk11M_IBUF       |   0.000|
-                    |    1.248(F)|    0.227(F)|clk11M_IBUF       |   0.000|
-physical_mem_bus<10>|    1.262(R)|    0.223(R)|clk11M_IBUF       |   0.000|
-                    |    2.085(F)|   -0.449(F)|clk11M_IBUF       |   0.000|
-physical_mem_bus<11>|    1.244(R)|    0.238(R)|clk11M_IBUF       |   0.000|
-                    |    1.267(F)|    0.205(F)|clk11M_IBUF       |   0.000|
-physical_mem_bus<12>|    1.361(R)|    0.163(R)|clk11M_IBUF       |   0.000|
-                    |    1.076(F)|    0.363(F)|clk11M_IBUF       |   0.000|
-physical_mem_bus<13>|    1.308(R)|    0.205(R)|clk11M_IBUF       |   0.000|
-                    |    1.270(F)|    0.209(F)|clk11M_IBUF       |   0.000|
-physical_mem_bus<14>|    0.843(R)|    0.570(R)|clk11M_IBUF       |   0.000|
-                    |    1.086(F)|    0.354(F)|clk11M_IBUF       |   0.000|
-physical_mem_bus<15>|    0.844(R)|    0.568(R)|clk11M_IBUF       |   0.000|
-                    |    1.212(F)|    0.253(F)|clk11M_IBUF       |   0.000|
-tbre_1              |    4.572(R)|   -2.432(R)|clk11M_IBUF       |   0.000|
-                    |   11.703(F)|   -2.610(F)|clk11M_IBUF       |   0.000|
-tsre_1              |    3.697(R)|   -1.731(R)|clk11M_IBUF       |   0.000|
-                    |   11.203(F)|   -2.210(F)|clk11M_IBUF       |   0.000|
---------------------+------------+------------+------------------+--------+
-
-Setup/Hold to clock rst
---------------+------------+------------+------------------+--------+
-              |Max Setup to|Max Hold to |                  | Clock  |
-Source        | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
---------------+------------+------------+------------------+--------+
-ram1DataBus<0>|    0.856(F)|    0.544(F)|rst_IBUF          |   0.000|
-ram1DataBus<1>|    0.968(F)|    0.454(F)|rst_IBUF          |   0.000|
-ram1DataBus<2>|    1.157(F)|    0.322(F)|rst_IBUF          |   0.000|
-ram1DataBus<3>|    1.155(F)|    0.324(F)|rst_IBUF          |   0.000|
-ram1DataBus<4>|    1.123(F)|    0.346(F)|rst_IBUF          |   0.000|
-ram1DataBus<5>|    0.789(F)|    0.613(F)|rst_IBUF          |   0.000|
-ram1DataBus<6>|    1.932(F)|   -0.306(F)|rst_IBUF          |   0.000|
-ram1DataBus<7>|    1.310(F)|    0.192(F)|rst_IBUF          |   0.000|
---------------+------------+------------+------------------+--------+
-
 Clock clk11M to Pad
----------------------+------------+-------------------------+--------+
-                     | clk (edge) |                         | Clock  |
-Destination          |   to PAD   |Internal Clock(s)        | Phase  |
----------------------+------------+-------------------------+--------+
-leddebug<0>          |   20.305(R)|clk11M_IBUF              |   0.000|
-                     |   21.185(F)|clk11M_IBUF              |   0.000|
-                     |   26.437(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<1>          |   20.796(R)|clk11M_IBUF              |   0.000|
-                     |   21.676(F)|clk11M_IBUF              |   0.000|
-                     |   26.928(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<2>          |   21.517(R)|clk11M_IBUF              |   0.000|
-                     |   22.302(F)|clk11M_IBUF              |   0.000|
-                     |   27.554(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<3>          |   21.071(R)|clk11M_IBUF              |   0.000|
-                     |   21.846(F)|clk11M_IBUF              |   0.000|
-                     |   27.098(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<4>          |   20.491(R)|clk11M_IBUF              |   0.000|
-                     |   21.371(F)|clk11M_IBUF              |   0.000|
-                     |   26.623(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<5>          |   20.733(R)|clk11M_IBUF              |   0.000|
-                     |   21.613(F)|clk11M_IBUF              |   0.000|
-                     |   26.865(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<6>          |   20.105(R)|clk11M_IBUF              |   0.000|
-                     |   20.985(F)|clk11M_IBUF              |   0.000|
-                     |   26.237(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<7>          |   20.379(R)|clk11M_IBUF              |   0.000|
-                     |   21.259(F)|clk11M_IBUF              |   0.000|
-                     |   26.511(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<8>          |   19.676(R)|clk11M_IBUF              |   0.000|
-                     |   20.556(F)|clk11M_IBUF              |   0.000|
-                     |   25.808(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<9>          |   20.161(R)|clk11M_IBUF              |   0.000|
-                     |   21.041(F)|clk11M_IBUF              |   0.000|
-                     |   26.293(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<10>         |   19.832(R)|clk11M_IBUF              |   0.000|
-                     |   20.712(F)|clk11M_IBUF              |   0.000|
-                     |   25.964(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<11>         |   20.563(R)|clk11M_IBUF              |   0.000|
-                     |   21.443(F)|clk11M_IBUF              |   0.000|
-                     |   26.695(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<12>         |   20.520(R)|clk11M_IBUF              |   0.000|
-                     |   21.400(F)|clk11M_IBUF              |   0.000|
-                     |   26.652(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<13>         |   20.309(R)|clk11M_IBUF              |   0.000|
-                     |   21.189(F)|clk11M_IBUF              |   0.000|
-                     |   26.441(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<14>         |   21.446(R)|clk11M_IBUF              |   0.000|
-                     |   22.326(F)|clk11M_IBUF              |   0.000|
-                     |   27.578(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<15>         |   20.989(R)|clk11M_IBUF              |   0.000|
-                     |   21.869(F)|clk11M_IBUF              |   0.000|
-                     |   27.121(R)|virtualMemory/serial2/wrn|   0.000|
-physical_mem_addr<0> |   11.427(R)|clk11M_IBUF              |   0.000|
-                     |   11.807(F)|clk11M_IBUF              |   0.000|
-physical_mem_addr<1> |   11.202(R)|clk11M_IBUF              |   0.000|
-                     |   11.877(F)|clk11M_IBUF              |   0.000|
-physical_mem_addr<2> |   10.569(R)|clk11M_IBUF              |   0.000|
-                     |   11.148(F)|clk11M_IBUF              |   0.000|
-physical_mem_addr<3> |   10.423(R)|clk11M_IBUF              |   0.000|
-                     |   11.043(F)|clk11M_IBUF              |   0.000|
-physical_mem_addr<4> |   10.430(R)|clk11M_IBUF              |   0.000|
-                     |   11.146(F)|clk11M_IBUF              |   0.000|
-physical_mem_addr<5> |   10.608(R)|clk11M_IBUF              |   0.000|
-                     |   10.960(F)|clk11M_IBUF              |   0.000|
-physical_mem_addr<6> |   11.132(R)|clk11M_IBUF              |   0.000|
-                     |   11.316(F)|clk11M_IBUF              |   0.000|
-physical_mem_addr<7> |   11.277(R)|clk11M_IBUF              |   0.000|
-                     |   11.213(F)|clk11M_IBUF              |   0.000|
-physical_mem_addr<8> |   11.286(R)|clk11M_IBUF              |   0.000|
-                     |   12.131(F)|clk11M_IBUF              |   0.000|
-physical_mem_addr<9> |   11.784(R)|clk11M_IBUF              |   0.000|
-                     |   11.769(F)|clk11M_IBUF              |   0.000|
-physical_mem_addr<10>|   11.780(R)|clk11M_IBUF              |   0.000|
-                     |   11.719(F)|clk11M_IBUF              |   0.000|
-physical_mem_addr<11>|   11.780(R)|clk11M_IBUF              |   0.000|
-                     |   11.838(F)|clk11M_IBUF              |   0.000|
-physical_mem_addr<12>|   11.566(R)|clk11M_IBUF              |   0.000|
-                     |   11.993(F)|clk11M_IBUF              |   0.000|
-physical_mem_addr<13>|   10.712(R)|clk11M_IBUF              |   0.000|
-                     |   11.033(F)|clk11M_IBUF              |   0.000|
-physical_mem_addr<14>|   10.108(R)|clk11M_IBUF              |   0.000|
-                     |   10.637(F)|clk11M_IBUF              |   0.000|
-physical_mem_addr<15>|   11.548(R)|clk11M_IBUF              |   0.000|
-                     |   12.433(F)|clk11M_IBUF              |   0.000|
-physical_mem_bus<0>  |   11.292(R)|clk11M_IBUF              |   0.000|
-physical_mem_bus<1>  |   12.412(R)|clk11M_IBUF              |   0.000|
-physical_mem_bus<2>  |   12.174(R)|clk11M_IBUF              |   0.000|
-physical_mem_bus<3>  |   12.170(R)|clk11M_IBUF              |   0.000|
-physical_mem_bus<4>  |   11.293(R)|clk11M_IBUF              |   0.000|
-physical_mem_bus<5>  |   11.522(R)|clk11M_IBUF              |   0.000|
-physical_mem_bus<6>  |   12.110(R)|clk11M_IBUF              |   0.000|
-physical_mem_bus<7>  |   11.577(R)|clk11M_IBUF              |   0.000|
-physical_mem_bus<8>  |   12.464(R)|clk11M_IBUF              |   0.000|
-physical_mem_bus<9>  |   13.066(R)|clk11M_IBUF              |   0.000|
-physical_mem_bus<10> |   11.610(R)|clk11M_IBUF              |   0.000|
-physical_mem_bus<11> |   11.291(R)|clk11M_IBUF              |   0.000|
-physical_mem_bus<12> |   12.535(R)|clk11M_IBUF              |   0.000|
-physical_mem_bus<13> |   12.234(R)|clk11M_IBUF              |   0.000|
-physical_mem_bus<14> |   11.306(R)|clk11M_IBUF              |   0.000|
-physical_mem_bus<15> |   13.032(R)|clk11M_IBUF              |   0.000|
-physical_mem_read    |   11.324(R)|clk11M_IBUF              |   0.000|
-physical_mem_write   |   11.855(R)|clk11M_IBUF              |   0.000|
-ram1DataBus<0>       |   11.084(R)|clk11M_IBUF              |   0.000|
-ram1DataBus<1>       |   11.920(R)|clk11M_IBUF              |   0.000|
-ram1DataBus<2>       |   12.218(R)|clk11M_IBUF              |   0.000|
-ram1DataBus<3>       |   11.131(R)|clk11M_IBUF              |   0.000|
-ram1DataBus<4>       |   12.421(R)|clk11M_IBUF              |   0.000|
-ram1DataBus<5>       |   11.343(R)|clk11M_IBUF              |   0.000|
-ram1DataBus<6>       |   11.877(R)|clk11M_IBUF              |   0.000|
-ram1DataBus<7>       |   11.877(R)|clk11M_IBUF              |   0.000|
-rdn_1                |   16.801(R)|clk11M_IBUF              |   0.000|
-vgaB<0>              |   32.355(R)|clk11M_IBUF              |   0.000|
-                     |   30.284(F)|clk11M_IBUF              |   0.000|
-                     |   35.536(R)|virtualMemory/serial2/wrn|   0.000|
-vgaB<1>              |   32.039(R)|clk11M_IBUF              |   0.000|
-                     |   29.968(F)|clk11M_IBUF              |   0.000|
-                     |   35.220(R)|virtualMemory/serial2/wrn|   0.000|
-vgaB<2>              |   32.000(R)|clk11M_IBUF              |   0.000|
-                     |   29.929(F)|clk11M_IBUF              |   0.000|
-                     |   35.181(R)|virtualMemory/serial2/wrn|   0.000|
-vgaG<0>              |   32.643(R)|clk11M_IBUF              |   0.000|
-                     |   30.572(F)|clk11M_IBUF              |   0.000|
-                     |   35.824(R)|virtualMemory/serial2/wrn|   0.000|
-vgaG<1>              |   32.603(R)|clk11M_IBUF              |   0.000|
-                     |   30.532(F)|clk11M_IBUF              |   0.000|
-                     |   35.784(R)|virtualMemory/serial2/wrn|   0.000|
-vgaG<2>              |   32.339(R)|clk11M_IBUF              |   0.000|
-                     |   30.268(F)|clk11M_IBUF              |   0.000|
-                     |   35.520(R)|virtualMemory/serial2/wrn|   0.000|
-vgaR<0>              |   31.940(R)|clk11M_IBUF              |   0.000|
-                     |   29.869(F)|clk11M_IBUF              |   0.000|
-                     |   35.121(R)|virtualMemory/serial2/wrn|   0.000|
-vgaR<1>              |   32.920(R)|clk11M_IBUF              |   0.000|
-                     |   30.849(F)|clk11M_IBUF              |   0.000|
-                     |   36.101(R)|virtualMemory/serial2/wrn|   0.000|
-vgaR<2>              |   32.616(R)|clk11M_IBUF              |   0.000|
-                     |   30.545(F)|clk11M_IBUF              |   0.000|
-                     |   35.797(R)|virtualMemory/serial2/wrn|   0.000|
-wrn_1                |   15.141(R)|clk11M_IBUF              |   0.000|
----------------------+------------+-------------------------+--------+
-
-Clock rst to Pad
-------------+------------+-------------------------+--------+
-            | clk (edge) |                         | Clock  |
-Destination |   to PAD   |Internal Clock(s)        | Phase  |
-------------+------------+-------------------------+--------+
-leddebug<0> |   19.834(F)|rst_IBUF                 |   0.000|
-            |   26.286(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<1> |   20.222(F)|rst_IBUF                 |   0.000|
-            |   26.777(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<2> |   27.403(R)|virtualMemory/serial2/wrn|   0.000|
-            |   21.195(F)|rst_IBUF                 |   0.000|
-leddebug<3> |   20.749(F)|rst_IBUF                 |   0.000|
-            |   26.947(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<4> |   19.917(F)|rst_IBUF                 |   0.000|
-            |   26.472(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<5> |   26.714(R)|virtualMemory/serial2/wrn|   0.000|
-            |   20.159(F)|rst_IBUF                 |   0.000|
-leddebug<6> |   26.086(R)|virtualMemory/serial2/wrn|   0.000|
-            |   19.531(F)|rst_IBUF                 |   0.000|
-leddebug<7> |   19.805(F)|rst_IBUF                 |   0.000|
-            |   26.360(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<8> |   19.098(F)|rst_IBUF                 |   0.000|
-            |   25.657(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<9> |   19.583(F)|rst_IBUF                 |   0.000|
-            |   26.142(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<10>|   25.813(R)|virtualMemory/serial2/wrn|   0.000|
-            |   19.254(F)|rst_IBUF                 |   0.000|
-leddebug<11>|   26.544(R)|virtualMemory/serial2/wrn|   0.000|
-            |   19.985(F)|rst_IBUF                 |   0.000|
-leddebug<12>|   19.942(F)|rst_IBUF                 |   0.000|
-            |   26.501(R)|virtualMemory/serial2/wrn|   0.000|
-leddebug<13>|   26.290(R)|virtualMemory/serial2/wrn|   0.000|
-            |   19.731(F)|rst_IBUF                 |   0.000|
-leddebug<14>|   27.427(R)|virtualMemory/serial2/wrn|   0.000|
-            |   20.868(F)|rst_IBUF                 |   0.000|
-leddebug<15>|   20.411(F)|rst_IBUF                 |   0.000|
-            |   26.970(R)|virtualMemory/serial2/wrn|   0.000|
-vgaB<0>     |   31.653(F)|rst_IBUF                 |   0.000|
-            |   35.385(R)|virtualMemory/serial2/wrn|   0.000|
-vgaB<1>     |   31.337(F)|rst_IBUF                 |   0.000|
-            |   35.069(R)|virtualMemory/serial2/wrn|   0.000|
-vgaB<2>     |   35.030(R)|virtualMemory/serial2/wrn|   0.000|
-            |   31.298(F)|rst_IBUF                 |   0.000|
-vgaG<0>     |   31.941(F)|rst_IBUF                 |   0.000|
-            |   35.673(R)|virtualMemory/serial2/wrn|   0.000|
-vgaG<1>     |   35.633(R)|virtualMemory/serial2/wrn|   0.000|
-            |   31.901(F)|rst_IBUF                 |   0.000|
-vgaG<2>     |   35.369(R)|virtualMemory/serial2/wrn|   0.000|
-            |   31.637(F)|rst_IBUF                 |   0.000|
-vgaR<0>     |   31.238(F)|rst_IBUF                 |   0.000|
-            |   34.970(R)|virtualMemory/serial2/wrn|   0.000|
-vgaR<1>     |   32.218(F)|rst_IBUF                 |   0.000|
-            |   35.950(R)|virtualMemory/serial2/wrn|   0.000|
-vgaR<2>     |   31.914(F)|rst_IBUF                 |   0.000|
-            |   35.646(R)|virtualMemory/serial2/wrn|   0.000|
-------------+------------+-------------------------+--------+
+---------------------+------------+----------------------+--------+
+                     | clk (edge) |                      | Clock  |
+Destination          |   to PAD   |Internal Clock(s)     | Phase  |
+---------------------+------------+----------------------+--------+
+leddebug<0>          |   11.123(F)|physical_mem_read_OBUF|   0.000|
+leddebug<1>          |   11.670(F)|physical_mem_read_OBUF|   0.000|
+leddebug<2>          |   11.252(F)|physical_mem_read_OBUF|   0.000|
+leddebug<3>          |   11.859(F)|physical_mem_read_OBUF|   0.000|
+leddebug<4>          |   11.750(F)|physical_mem_read_OBUF|   0.000|
+leddebug<5>          |   11.751(F)|physical_mem_read_OBUF|   0.000|
+leddebug<6>          |   10.940(F)|physical_mem_read_OBUF|   0.000|
+leddebug<7>          |   11.826(F)|physical_mem_read_OBUF|   0.000|
+leddebug<8>          |   11.386(F)|physical_mem_read_OBUF|   0.000|
+leddebug<9>          |   11.451(F)|physical_mem_read_OBUF|   0.000|
+leddebug<10>         |   11.402(F)|physical_mem_read_OBUF|   0.000|
+leddebug<11>         |   11.265(F)|physical_mem_read_OBUF|   0.000|
+leddebug<12>         |   11.088(F)|physical_mem_read_OBUF|   0.000|
+leddebug<13>         |   12.030(F)|physical_mem_read_OBUF|   0.000|
+leddebug<14>         |   12.157(F)|physical_mem_read_OBUF|   0.000|
+leddebug<15>         |   11.829(F)|physical_mem_read_OBUF|   0.000|
+physical_mem_addr<0> |    9.306(R)|physical_mem_read_OBUF|   0.000|
+                     |    9.755(F)|physical_mem_read_OBUF|   0.000|
+physical_mem_addr<1> |   10.448(R)|physical_mem_read_OBUF|   0.000|
+                     |    9.944(F)|physical_mem_read_OBUF|   0.000|
+physical_mem_addr<2> |    9.925(R)|physical_mem_read_OBUF|   0.000|
+                     |    8.797(F)|physical_mem_read_OBUF|   0.000|
+physical_mem_addr<3> |   11.066(R)|physical_mem_read_OBUF|   0.000|
+                     |    9.799(F)|physical_mem_read_OBUF|   0.000|
+physical_mem_addr<4> |   10.928(R)|physical_mem_read_OBUF|   0.000|
+                     |   10.343(F)|physical_mem_read_OBUF|   0.000|
+physical_mem_addr<5> |   11.233(R)|physical_mem_read_OBUF|   0.000|
+                     |   10.346(F)|physical_mem_read_OBUF|   0.000|
+physical_mem_addr<6> |   10.473(R)|physical_mem_read_OBUF|   0.000|
+                     |   10.064(F)|physical_mem_read_OBUF|   0.000|
+physical_mem_addr<7> |   10.413(R)|physical_mem_read_OBUF|   0.000|
+                     |   10.073(F)|physical_mem_read_OBUF|   0.000|
+physical_mem_addr<8> |   11.510(R)|physical_mem_read_OBUF|   0.000|
+                     |   10.735(F)|physical_mem_read_OBUF|   0.000|
+physical_mem_addr<9> |   11.249(R)|physical_mem_read_OBUF|   0.000|
+                     |   10.081(F)|physical_mem_read_OBUF|   0.000|
+physical_mem_addr<10>|   10.466(R)|physical_mem_read_OBUF|   0.000|
+                     |   10.557(F)|physical_mem_read_OBUF|   0.000|
+physical_mem_addr<11>|   10.568(R)|physical_mem_read_OBUF|   0.000|
+                     |   10.604(F)|physical_mem_read_OBUF|   0.000|
+physical_mem_addr<12>|   10.674(R)|physical_mem_read_OBUF|   0.000|
+                     |   10.779(F)|physical_mem_read_OBUF|   0.000|
+physical_mem_addr<13>|   10.828(R)|physical_mem_read_OBUF|   0.000|
+                     |   10.418(F)|physical_mem_read_OBUF|   0.000|
+physical_mem_addr<14>|   10.753(R)|physical_mem_read_OBUF|   0.000|
+                     |    9.641(F)|physical_mem_read_OBUF|   0.000|
+physical_mem_addr<15>|   10.782(R)|physical_mem_read_OBUF|   0.000|
+                     |    9.872(F)|physical_mem_read_OBUF|   0.000|
+vgaB<0>              |   24.145(R)|physical_mem_read_OBUF|   0.000|
+                     |   25.591(F)|physical_mem_read_OBUF|   0.000|
+vgaB<1>              |   23.755(R)|physical_mem_read_OBUF|   0.000|
+                     |   25.201(F)|physical_mem_read_OBUF|   0.000|
+vgaB<2>              |   23.836(R)|physical_mem_read_OBUF|   0.000|
+                     |   25.282(F)|physical_mem_read_OBUF|   0.000|
+vgaG<0>              |   24.432(R)|physical_mem_read_OBUF|   0.000|
+                     |   25.878(F)|physical_mem_read_OBUF|   0.000|
+vgaG<1>              |   24.135(R)|physical_mem_read_OBUF|   0.000|
+                     |   25.581(F)|physical_mem_read_OBUF|   0.000|
+vgaG<2>              |   23.860(R)|physical_mem_read_OBUF|   0.000|
+                     |   25.306(F)|physical_mem_read_OBUF|   0.000|
+vgaR<0>              |   24.394(R)|physical_mem_read_OBUF|   0.000|
+                     |   25.840(F)|physical_mem_read_OBUF|   0.000|
+vgaR<1>              |   24.709(R)|physical_mem_read_OBUF|   0.000|
+                     |   26.155(F)|physical_mem_read_OBUF|   0.000|
+vgaR<2>              |   24.424(R)|physical_mem_read_OBUF|   0.000|
+                     |   25.870(F)|physical_mem_read_OBUF|   0.000|
+---------------------+------------+----------------------+--------+
 
 Clock to Setup on destination clock clk
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |         |         |         |    1.560|
+clk            |         |         |         |    1.509|
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk11M
@@ -312,172 +126,41 @@ Clock to Setup on destination clock clk11M
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk11M         |   11.605|   12.606|   19.171|   13.894|
-rst            |   11.605|    6.777|   19.171|   12.591|
----------------+---------+---------+---------+---------+
-
-Clock to Setup on destination clock rst
----------------+---------+---------+---------+---------+
-               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
----------------+---------+---------+---------+---------+
-clk11M         |         |         |    8.877|    4.392|
-rst            |         |         |         |    2.170|
+clk11M         |         |    5.043|    4.299|    8.566|
 ---------------+---------+---------+---------+---------+
 
 Pad to Pad
 ---------------+---------------------+---------+
 Source Pad     |Destination Pad      |  Delay  |
 ---------------+---------------------+---------+
-clk11M         |physical_mem_addr<0> |   11.729|
-clk11M         |physical_mem_addr<1> |   12.587|
-clk11M         |physical_mem_addr<2> |   12.866|
-clk11M         |physical_mem_addr<3> |   12.931|
-clk11M         |physical_mem_addr<4> |   10.373|
-clk11M         |physical_mem_addr<5> |   12.543|
-clk11M         |physical_mem_addr<6> |   12.002|
-clk11M         |physical_mem_addr<7> |   12.059|
-clk11M         |physical_mem_addr<8> |   12.941|
-clk11M         |physical_mem_addr<9> |   13.428|
-clk11M         |physical_mem_addr<10>|   12.131|
-clk11M         |physical_mem_addr<11>|   13.466|
-clk11M         |physical_mem_addr<12>|   12.748|
-clk11M         |physical_mem_addr<13>|   12.541|
-clk11M         |physical_mem_addr<14>|   12.478|
-clk11M         |physical_mem_addr<15>|   12.829|
-clk11M         |physical_mem_bus<0>  |   12.469|
-clk11M         |physical_mem_bus<1>  |   13.589|
-clk11M         |physical_mem_bus<2>  |   13.310|
-clk11M         |physical_mem_bus<3>  |   13.306|
-clk11M         |physical_mem_bus<4>  |   12.474|
-clk11M         |physical_mem_bus<5>  |   12.703|
-clk11M         |physical_mem_bus<6>  |   13.262|
-clk11M         |physical_mem_bus<7>  |   12.729|
-clk11M         |physical_mem_bus<8>  |   13.595|
-clk11M         |physical_mem_bus<9>  |   14.197|
-clk11M         |physical_mem_bus<10> |   12.737|
-clk11M         |physical_mem_bus<11> |   12.418|
-clk11M         |physical_mem_bus<12> |   13.646|
-clk11M         |physical_mem_bus<13> |   13.345|
-clk11M         |physical_mem_bus<14> |   12.452|
-clk11M         |physical_mem_bus<15> |   14.178|
-clk11M         |physical_mem_read    |   12.479|
-clk11M         |physical_mem_write   |   13.063|
-clk11M         |rdn_1                |   10.778|
-clk11M         |wrn_1                |   14.980|
-dataReady_1    |leddebug<0>          |   17.735|
-dataReady_1    |leddebug<1>          |   18.226|
-dataReady_1    |leddebug<2>          |   18.852|
-dataReady_1    |leddebug<3>          |   18.396|
-dataReady_1    |leddebug<4>          |   17.921|
-dataReady_1    |leddebug<5>          |   18.163|
-dataReady_1    |leddebug<6>          |   17.535|
-dataReady_1    |leddebug<7>          |   17.809|
-dataReady_1    |leddebug<8>          |   17.106|
-dataReady_1    |leddebug<9>          |   17.591|
-dataReady_1    |leddebug<10>         |   17.262|
-dataReady_1    |leddebug<11>         |   17.993|
-dataReady_1    |leddebug<12>         |   17.950|
-dataReady_1    |leddebug<13>         |   17.739|
-dataReady_1    |leddebug<14>         |   18.876|
-dataReady_1    |leddebug<15>         |   18.419|
-dataReady_1    |vgaB<0>              |   26.834|
-dataReady_1    |vgaB<1>              |   26.518|
-dataReady_1    |vgaB<2>              |   26.479|
-dataReady_1    |vgaG<0>              |   27.122|
-dataReady_1    |vgaG<1>              |   27.082|
-dataReady_1    |vgaG<2>              |   26.818|
-dataReady_1    |vgaR<0>              |   26.419|
-dataReady_1    |vgaR<1>              |   27.399|
-dataReady_1    |vgaR<2>              |   27.095|
-rst            |leddebug<0>          |   15.464|
-rst            |leddebug<1>          |   15.955|
-rst            |leddebug<2>          |   16.581|
-rst            |leddebug<3>          |   16.125|
-rst            |leddebug<4>          |   15.650|
-rst            |leddebug<5>          |   15.892|
-rst            |leddebug<6>          |   15.264|
-rst            |leddebug<7>          |   15.538|
-rst            |leddebug<8>          |   14.423|
-rst            |leddebug<9>          |   14.908|
-rst            |leddebug<10>         |   14.615|
-rst            |leddebug<11>         |   15.310|
-rst            |leddebug<12>         |   15.442|
-rst            |leddebug<13>         |   15.374|
-rst            |leddebug<14>         |   16.193|
-rst            |leddebug<15>         |   15.736|
-rst            |rdn_1                |   11.664|
-rst            |vgaB<0>              |   24.563|
-rst            |vgaB<1>              |   24.247|
-rst            |vgaB<2>              |   24.208|
-rst            |vgaG<0>              |   24.851|
-rst            |vgaG<1>              |   24.811|
-rst            |vgaG<2>              |   24.547|
-rst            |vgaR<0>              |   24.148|
-rst            |vgaR<1>              |   25.128|
-rst            |vgaR<2>              |   24.824|
-rst            |wrn_1                |   12.594|
-tbre_1         |leddebug<0>          |   18.382|
-tbre_1         |leddebug<1>          |   18.873|
-tbre_1         |leddebug<2>          |   19.499|
-tbre_1         |leddebug<3>          |   19.043|
-tbre_1         |leddebug<4>          |   18.568|
-tbre_1         |leddebug<5>          |   18.810|
-tbre_1         |leddebug<6>          |   18.182|
-tbre_1         |leddebug<7>          |   18.456|
-tbre_1         |leddebug<8>          |   17.753|
-tbre_1         |leddebug<9>          |   18.238|
-tbre_1         |leddebug<10>         |   17.909|
-tbre_1         |leddebug<11>         |   18.640|
-tbre_1         |leddebug<12>         |   18.597|
-tbre_1         |leddebug<13>         |   18.386|
-tbre_1         |leddebug<14>         |   19.523|
-tbre_1         |leddebug<15>         |   19.066|
-tbre_1         |vgaB<0>              |   27.481|
-tbre_1         |vgaB<1>              |   27.165|
-tbre_1         |vgaB<2>              |   27.126|
-tbre_1         |vgaG<0>              |   27.769|
-tbre_1         |vgaG<1>              |   27.729|
-tbre_1         |vgaG<2>              |   27.465|
-tbre_1         |vgaR<0>              |   27.066|
-tbre_1         |vgaR<1>              |   28.046|
-tbre_1         |vgaR<2>              |   27.742|
-tsre_1         |leddebug<0>          |   17.882|
-tsre_1         |leddebug<1>          |   18.373|
-tsre_1         |leddebug<2>          |   18.999|
-tsre_1         |leddebug<3>          |   18.543|
-tsre_1         |leddebug<4>          |   18.068|
-tsre_1         |leddebug<5>          |   18.310|
-tsre_1         |leddebug<6>          |   17.682|
-tsre_1         |leddebug<7>          |   17.956|
-tsre_1         |leddebug<8>          |   17.253|
-tsre_1         |leddebug<9>          |   17.738|
-tsre_1         |leddebug<10>         |   17.409|
-tsre_1         |leddebug<11>         |   18.140|
-tsre_1         |leddebug<12>         |   18.097|
-tsre_1         |leddebug<13>         |   17.886|
-tsre_1         |leddebug<14>         |   19.023|
-tsre_1         |leddebug<15>         |   18.566|
-tsre_1         |vgaB<0>              |   26.981|
-tsre_1         |vgaB<1>              |   26.665|
-tsre_1         |vgaB<2>              |   26.626|
-tsre_1         |vgaG<0>              |   27.269|
-tsre_1         |vgaG<1>              |   27.229|
-tsre_1         |vgaG<2>              |   26.965|
-tsre_1         |vgaR<0>              |   26.566|
-tsre_1         |vgaR<1>              |   27.546|
-tsre_1         |vgaR<2>              |   27.242|
+clk11M         |physical_mem_addr<0> |   11.097|
+clk11M         |physical_mem_addr<1> |   11.003|
+clk11M         |physical_mem_addr<2> |   11.465|
+clk11M         |physical_mem_addr<3> |   12.318|
+clk11M         |physical_mem_addr<4> |   12.257|
+clk11M         |physical_mem_addr<5> |   12.527|
+clk11M         |physical_mem_addr<6> |   11.351|
+clk11M         |physical_mem_addr<7> |   11.326|
+clk11M         |physical_mem_addr<8> |   11.739|
+clk11M         |physical_mem_addr<9> |   11.516|
+clk11M         |physical_mem_addr<10>|   11.895|
+clk11M         |physical_mem_addr<11>|   11.618|
+clk11M         |physical_mem_addr<12>|   11.789|
+clk11M         |physical_mem_addr<13>|   11.193|
+clk11M         |physical_mem_addr<14>|   10.917|
+clk11M         |physical_mem_addr<15>|   11.397|
+clk11M         |physical_mem_read    |    7.990|
 ---------------+---------------------+---------+
 
 
-Analysis completed Sat Dec 06 16:12:07 2014 
+Analysis completed Sat Dec 06 16:36:58 2014 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 304 MB
+Peak Memory Usage: 277 MB
 
 
 

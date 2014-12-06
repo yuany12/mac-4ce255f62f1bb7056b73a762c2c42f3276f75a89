@@ -24,7 +24,13 @@ module VirtualMemory(
   
   // USB Serial
   input u_txd,
-  output u_rxd
+  output u_rxd,
+  
+  // physical memory
+  inout [15:0] physical_mem_bus,
+  output [17:0] physical_mem_addr,
+  output physical_mem_read, physical_mem_write, physical_mem_enable
+  
 );
 
 wire [7:0] serialPortData_1;
@@ -54,6 +60,21 @@ serialConn2 serial2(
   serialPortState_2,
   u_txd,
   u_rxd
+);
+
+memoryController physicalMemory(
+  clk,
+  actualRamAddrA, //actualRamAddrA
+  MeMemResult,
+  memRW,
+  ramDataA,//out
+  actualRamAddrB,
+  ramDataB,//out
+  physical_mem_bus,//out
+  physical_mem_addr,
+  physical_mem_read, 
+  physical_mem_write, 
+  physical_mem_enable
 );
 
 localparam RAM = 3'b000,
@@ -97,32 +118,32 @@ always @ (*)
 always @ (virtualAddrB)
 begin
   actualRamAddrB = virtualAddrB;
-  if (virtualAddrB == 16'hbf00)
-    indexB = SERIALPORT_DATA_1;
-  else if (virtualAddrB == 16'hbf01)
-    indexB = SERIALPORT_STATE_1;
-  else if (virtualAddrB == 16'hbf02)
-	 indexB = SERIALPORT_DATA_2;
-  else if (virtualAddrB == 16'hbf03)
-    indexB = SERIALPORT_STATE_2;
-  else
-    indexB = RAM;
+//  if (virtualAddrB == 16'hbf00)
+//    indexB = SERIALPORT_DATA_1;
+//  else if (virtualAddrB == 16'hbf01)
+//    indexB = SERIALPORT_STATE_1;
+//  else if (virtualAddrB == 16'hbf02)
+//	 indexB = SERIALPORT_DATA_2;
+//  else if (virtualAddrB == 16'hbf03)
+//    indexB = SERIALPORT_STATE_2;
+//  else
+//    indexB = RAM;
 end
 
 always @ (*)
-  case (indexB)
-    RAM:
+//  case (indexB)
+//    RAM:
       realDataB = ramDataB;
-    SERIALPORT_DATA_1:
-      realDataB = {8'h00, serialPortData_1};
-    SERIALPORT_STATE_1:
-      realDataB = {14'b00000000000000, serialPortState_1};
-	 SERIALPORT_DATA_2:
-		realDataB = {8'h00, serialPortData_2};
-	 SERIALPORT_STATE_2:
-	   realDataB = {14'b00000000000000, serialPortState_2};
-    default:
-      realDataB = 0;
-  endcase
+//    SERIALPORT_DATA_1:
+//      realDataB = {8'h00, serialPortData_1};
+//    SERIALPORT_STATE_1:
+//      realDataB = {14'b00000000000000, serialPortState_1};
+//	 SERIALPORT_DATA_2:
+//		realDataB = {8'h00, serialPortData_2};
+//	 SERIALPORT_STATE_2:
+//	   realDataB = {14'b00000000000000, serialPortState_2};
+//    default:
+//      realDataB = 0;
+//  endcase
   
 endmodule

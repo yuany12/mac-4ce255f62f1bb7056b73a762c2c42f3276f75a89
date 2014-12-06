@@ -1,3 +1,5 @@
+'include "globalDefines.v"
+
 module instructionDecoder (
   input clk, rst,
   input [15:0] instruction,

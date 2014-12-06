@@ -81,17 +81,17 @@ GraphicCard graphic (
 //  memBdataRead
 //);
 
-memoryController memory(
-  clk11M,
-  physicalMemAaddr, MeMemResult,
-  memRW,
-  ramAdataRead,
-  physicalMemBaddr,
-  ramBdataRead,
-  physical_mem_bus,
-  physical_mem_addr,
-  physical_mem_read, physical_mem_write, physical_mem_enable
-);
+//memoryController memory(
+//  clk11M,
+//  physicalMemAaddr, MeMemResult,
+//  memRW,
+//  ramAdataRead,//out
+//  physicalMemBaddr,
+//  ramBdataRead,//out
+//  physical_mem_bus,//out
+//  physical_mem_addr,
+//  physical_mem_read, physical_mem_write, physical_mem_enable
+//);
 
 //serialConn serial1 (
 //  clk11M, rst,
@@ -153,8 +153,14 @@ VirtualMemory virtualMemory(
   
   // USB Serial
   .u_txd(u_txd),
-  .u_rxd(u_rxd)
-
+  .u_rxd(u_rxd),
+	
+	// physical memory
+	.physical_mem_bus(physical_mem_bus),
+	.physical_mem_addr(physical_mem_addr),
+	.physical_mem_read(physical_mem_read),
+	.physical_mem_write(physical_mem_write),
+	.physical_mem_enable(physical_mem_enable)
 );
 
 // to be deleted if not used

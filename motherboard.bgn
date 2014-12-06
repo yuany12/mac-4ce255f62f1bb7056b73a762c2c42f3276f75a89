@@ -6,7 +6,7 @@ f:\Xilinx\14.7\ISE_DS\ISE\.
 -4
 Opened constraints file motherBoard.pcf.
 
-Sat Dec 06 16:12:27 2014
+Sat Dec 06 16:37:17 2014
 
 f:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\bitgen.exe -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g ConfigRate:1 -g ProgPin:PullUp -g DonePin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g DCMShutdown:Disable -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:Yes -g DriveDone:No motherBoard.ncd 
 
@@ -91,12 +91,17 @@ There were 0 CONFIG constraint(s) processed from motherBoard.pcf.
 
 
 Running DRC.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net virtualMemory/serial2/wrn
-   is sourced by a combinatorial pin. This is not good design practice. Use the
-   CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal <u_txd_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <dataReady_1_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal <clkClick_IBUF> is incomplete. The
    signal does not drive any load pins in the design.
-DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+WARNING:PhysDesignRules:367 - The signal <tbre_1_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <tsre_1_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+DRC detected 0 errors and 5 warnings.  Please see the previously displayed
 individual error or warning messages for more details.
 Creating bit map...
 Saving bit stream in "motherboard.bit".
