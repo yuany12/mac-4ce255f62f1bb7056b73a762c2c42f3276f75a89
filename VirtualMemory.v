@@ -2,6 +2,9 @@ module VirtualMemory(
   input clk,
   input rst,
   
+  input memRW, 
+  input MeMemResult,
+
   input [15:0] virtualAddrA,
   output reg [15:0] actualRamAddrA,
   input [15:0] ramDataA,
@@ -33,7 +36,7 @@ wire [1:0] serialPortState_2;
 serialConn serial1 (
   clk, rst,
   tbre_1, tsre_1, dataReady_1,
-  memRW, index,
+  memRW, indexA,
   MeMemResult,
   ram1DataBus,
   rdn_1, wrn_1,
@@ -44,7 +47,7 @@ serialConn serial1 (
 
 serialConn2 serial2(
   clk, rst,
-  memRW, index,
+  memRW, indexB,
   MeMemResult,
   serialPortDataRead_2,
   serialPortState_2,

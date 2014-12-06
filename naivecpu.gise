@@ -168,14 +168,18 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1417837163" xil_pn:in_ck="4739745123211733991" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-7326362176527365353" xil_pn:start_ts="1417837155">
-      <status xil_pn:value="FailedRun"/>
+    <transform xil_pn:end_ts="1417837985" xil_pn:in_ck="4739745123211733991" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-7326362176527365353" xil_pn:start_ts="1417837846">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="motherBoard.lso"/>
       <outfile xil_pn:name="motherBoard.ngc"/>
       <outfile xil_pn:name="motherBoard.ngr"/>
       <outfile xil_pn:name="motherBoard.prj"/>
+      <outfile xil_pn:name="motherBoard.stx"/>
       <outfile xil_pn:name="motherBoard.syr"/>
       <outfile xil_pn:name="motherBoard.xst"/>
       <outfile xil_pn:name="motherBoard_vhdl.prj"/>
@@ -187,23 +191,19 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1417834077" xil_pn:in_ck="5685205221716290080" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="8214031810170328295" xil_pn:start_ts="1417834057">
+    <transform xil_pn:end_ts="1417837998" xil_pn:in_ck="5685205221716290080" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="8214031810170328295" xil_pn:start_ts="1417837985">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="motherBoard.bld"/>
       <outfile xil_pn:name="motherBoard.ngd"/>
       <outfile xil_pn:name="motherBoard_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1417834121" xil_pn:in_ck="-7287535468905918463" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="3188416950630775481" xil_pn:start_ts="1417834077">
+    <transform xil_pn:end_ts="1417838032" xil_pn:in_ck="-7287535468905918463" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="3188416950630775481" xil_pn:start_ts="1417837998">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
       <outfile xil_pn:name="motherBoard.pcf"/>
       <outfile xil_pn:name="motherBoard_map.map"/>
@@ -214,11 +214,10 @@
       <outfile xil_pn:name="motherBoard_summary.xml"/>
       <outfile xil_pn:name="motherBoard_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1417834221" xil_pn:in_ck="-711783460768465670" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="6268780068511726196" xil_pn:start_ts="1417834121">
+    <transform xil_pn:end_ts="1417838118" xil_pn:in_ck="-711783460768465670" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="6268780068511726196" xil_pn:start_ts="1417838032">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
       <outfile xil_pn:name="motherBoard.ncd"/>
       <outfile xil_pn:name="motherBoard.pad"/>
@@ -230,11 +229,10 @@
       <outfile xil_pn:name="motherBoard_pad.txt"/>
       <outfile xil_pn:name="motherBoard_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1417834275" xil_pn:in_ck="-9166367744054832454" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1417834221">
-      <status xil_pn:value="AbortedRun"/>
+    <transform xil_pn:end_ts="1417838159" xil_pn:in_ck="-9166367744054832454" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1417838118">
+      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="motherBoard.ut"/>
       <outfile xil_pn:name="motherboard.bgn"/>
@@ -248,7 +246,6 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="_impact.cmd"/>
       <outfile xil_pn:name="_impact.log"/>
@@ -257,15 +254,13 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="InputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1417834221" xil_pn:in_ck="8013780911946860541" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1417834201">
+    <transform xil_pn:end_ts="1417838118" xil_pn:in_ck="8013780911946860541" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1417838106">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
       <outfile xil_pn:name="motherBoard.twr"/>
       <outfile xil_pn:name="motherBoard.twx"/>

@@ -125,7 +125,8 @@ memoryController memory(
 VirtualMemory virtualMemoryMem(
   .clk(clk11M),
   .rst(rst),
-  
+  .MeMemResult(MeMemResult), 
+  .memRW(memRW),
   .virtualAddrA(memAaddr),
   .actualRamAddrA(physicalMemAaddr),
   .ramDataA(ramAdataRead),
@@ -152,11 +153,6 @@ VirtualMemory virtualMemoryMem(
   .u_rxd(u_rxd)
 
 );
-
-
-  
-
-
 
 // to be deleted if not used
 

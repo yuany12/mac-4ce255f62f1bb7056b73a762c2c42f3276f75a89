@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.26 secs
+Total CPU time to Xst completion: 0.33 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.26 secs
+Total CPU time to Xst completion: 0.33 secs
  
 --> Reading design: motherBoard.prj
 
@@ -741,9 +741,6 @@ WARNING:Xst:653 - Signal <serialPortData_2> is used but never assigned. This sou
 WARNING:Xst:653 - Signal <serialPortData_1> is used but never assigned. This sourceless signal will be automatically connected to value 00000000.
 WARNING:Xst:646 - Signal <serialPortDataRead_2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <serialPortDataRead_1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:653 - Signal <memRW> is used but never assigned. This sourceless signal will be automatically connected to value 0.
-WARNING:Xst:653 - Signal <index> is used but never assigned. This sourceless signal will be automatically connected to value 0.
-WARNING:Xst:653 - Signal <MeMemResult> is used but never assigned. This sourceless signal will be automatically connected to value 0.
 Unit <VirtualMemory> synthesized.
 
 
@@ -857,28 +854,21 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-WARNING:Xst:1710 - FF/Latch <wrn1> (without init value) has a constant value of 1 in block <u1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <tsr_7> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <tsr_6> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <tsr_5> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <tsr_4> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <tsr_3> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <tsr_2> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <tsr_1> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <tsr_0> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <tbr_7> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <tbr_6> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <tbr_5> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <tbr_4> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <tbr_3> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <tbr_2> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <tbr_1> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <tbr_0> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <clk1x_enable> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 1 in block <wrn0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wrn2> (without init value) has a constant value of 1 in block <u1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tbr_2> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tbr_3> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tbr_4> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tbr_5> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tbr_6> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tbr_7> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tsr_1> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tsr_2> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tsr_3> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tsr_4> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tsr_5> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tsr_6> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tsr_7> (without init value) has a constant value of 0 in block <u1>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:2677 - Node <opBbuffer_16> of sequential type is unconnected in block <MeCalResultMux>.
-WARNING:Xst:1710 - FF/Latch <tbre_t> (without init value) has a constant value of 1 in block <u1>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:2404 -  FFs/Latches <opBbuffer<16:16>> (without init value) have a constant value of 0 in block <mux_B_buffered>.
 
 =========================================================================
@@ -984,33 +974,20 @@ Optimizing unit <cpu> ...
 Optimizing unit <NumberRenderer> ...
 
 Optimizing unit <Renderer> ...
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tbr_0> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tbr_1> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tbr_2> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tbr_3> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tbr_4> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tbr_5> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tbr_6> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tbr_7> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/sdo> (without init value) has a constant value of 1 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/clk1x_enable> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tsre> (without init value) has a constant value of 1 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tsr_0> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tsr_1> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tsr_2> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tsr_3> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tsr_4> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tsr_5> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tsr_6> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tsr_7> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/parity> (without init value) has a constant value of 1 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/wrn0> (without init value) has a constant value of 1 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <virtualMemoryMem/serial2/Uart2/u1/wrn1> (without init value) has a constant value of 1 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <virtualMemoryMem/serial2/Uart2/u1/clkdiv_0> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <virtualMemoryMem/serial2/Uart2/u1/clkdiv_1> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <virtualMemoryMem/serial2/Uart2/u1/clkdiv_2> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <virtualMemoryMem/serial2/Uart2/u1/clkdiv_3> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <virtualMemoryMem/serial2/Uart2/u1/wrn2> (without init value) has a constant value of 1 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tsr_6> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tsr_5> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tsr_4> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tsr_3> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tsr_2> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tsr_1> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tbr_7> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tbr_6> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tbr_5> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tbr_4> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tbr_3> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tbr_2> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tbr_1> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:2677 - Node <virtualMemoryMem/serial2/Uart2/u2/rbr_7> of sequential type is unconnected in block <motherBoard>.
 WARNING:Xst:2677 - Node <virtualMemoryMem/serial2/Uart2/u2/rbr_6> of sequential type is unconnected in block <motherBoard>.
 WARNING:Xst:2677 - Node <virtualMemoryMem/serial2/Uart2/u2/rbr_5> of sequential type is unconnected in block <motherBoard>.
@@ -1030,11 +1007,6 @@ WARNING:Xst:2677 - Node <virtualMemoryMem/serial2/Uart2/u2/rsr_6> of sequential 
 WARNING:Xst:2677 - Node <virtualMemoryMem/serial2/Uart2/u2/rsr_7> of sequential type is unconnected in block <motherBoard>.
 WARNING:Xst:2677 - Node <virtualMemoryMem/serial2/Uart2/u2/framing_error> of sequential type is unconnected in block <motherBoard>.
 WARNING:Xst:2677 - Node <virtualMemoryMem/serial2/Uart2/u2/parity_error> of sequential type is unconnected in block <motherBoard>.
-WARNING:Xst:1710 - FF/Latch <virtualMemoryMem/serial2/Uart2/u1/tbre_t> (without init value) has a constant value of 1 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <virtualMemoryMem/serial2/Uart2/u1/no_bits_sent_3> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <virtualMemoryMem/serial2/Uart2/u1/no_bits_sent_2> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <virtualMemoryMem/serial2/Uart2/u1/no_bits_sent_1> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <virtualMemoryMem/serial2/Uart2/u1/no_bits_sent_0> (without init value) has a constant value of 0 in block <motherBoard>. This FF/Latch will be trimmed during the optimization process.
 
 Mapping all equations...
 Building and optimizing final netlist ...
@@ -1099,6 +1071,14 @@ INFO:Xst:2261 - The FF/Latch <naive/MeCalResultMux/opBbuffer_8> in Unit <motherB
 INFO:Xst:2261 - The FF/Latch <naive/MeCalResultMux/opBbuffer_9> in Unit <motherBoard> is equivalent to the following FF/Latch, which will be removed : <naive/MeMemResultFF/buffer_9> 
 INFO:Xst:2261 - The FF/Latch <naive/addrCalculator/instruction_11> in Unit <motherBoard> is equivalent to the following FF/Latch, which will be removed : <naive/calculator/instruction_11> 
 Found area constraint ratio of 100 (+ 5) on block motherBoard, actual ratio is 94.
+FlipFlop naive/MeRegisterTFF/out_0 has been replicated 1 time(s)
+FlipFlop naive/MeRegisterTFF/out_1 has been replicated 1 time(s)
+FlipFlop naive/MeRegisterTFF/out_2 has been replicated 1 time(s)
+FlipFlop naive/MeRegisterTFF/out_3 has been replicated 1 time(s)
+FlipFlop naive/decoder/id_registerX_0 has been replicated 1 time(s)
+FlipFlop naive/decoder/id_registerX_1 has been replicated 1 time(s)
+FlipFlop naive/decoder/id_registerX_2 has been replicated 1 time(s)
+FlipFlop naive/decoder/id_registerX_3 has been replicated 1 time(s)
 
 Final Macro Processing ...
 
@@ -1106,8 +1086,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 560
- Flip-Flops                                            : 560
+# Registers                                            : 585
+ Flip-Flops                                            : 585
 
 =========================================================================
 
@@ -1136,35 +1116,36 @@ Design Statistics
 # IOs                              : 86
 
 Cell Usage :
-# BELS                             : 26153
+# BELS                             : 26181
 #      GND                         : 1
-#      INV                         : 7797
+#      INV                         : 7801
 #      LUT1                        : 4063
-#      LUT2                        : 371
-#      LUT2_D                      : 4
-#      LUT2_L                      : 2
-#      LUT3                        : 317
-#      LUT3_D                      : 33
-#      LUT3_L                      : 12
-#      LUT4                        : 1191
-#      LUT4_D                      : 15
+#      LUT2                        : 362
+#      LUT2_D                      : 2
+#      LUT3                        : 338
+#      LUT3_D                      : 29
+#      LUT3_L                      : 10
+#      LUT4                        : 1219
+#      LUT4_D                      : 29
 #      LUT4_L                      : 69
 #      MUXCY                       : 11953
-#      MUXF5                       : 176
+#      MUXF5                       : 156
 #      MUXF6                       : 30
 #      VCC                         : 1
 #      XORCY                       : 118
-# FlipFlops/Latches                : 593
+# FlipFlops/Latches                : 619
 #      FD_1                        : 16
-#      FDC                         : 166
-#      FDC_1                       : 138
-#      FDCE                        : 18
+#      FDC                         : 179
+#      FDC_1                       : 139
+#      FDCE                        : 23
 #      FDCE_1                      : 176
 #      FDE                         : 2
-#      FDP                         : 24
+#      FDP                         : 28
 #      FDP_1                       : 20
+#      FDPE                        : 2
 #      LD                          : 16
 #      LD_1                        : 17
+#      LDP_1                       : 1
 # Clock Buffers                    : 3
 #      BUFG                        : 2
 #      BUFGP                       : 1
@@ -1180,9 +1161,9 @@ Device utilization summary:
 
 Selected Device : 3s1200efg320-4 
 
- Number of Slices:                     7479  out of   8672    86%  
- Number of Slice Flip Flops:            593  out of  17344     3%  
- Number of 4 input LUTs:              13874  out of  17344    79%  
+ Number of Slices:                     7505  out of   8672    86%  
+ Number of Slice Flip Flops:            619  out of  17344     3%  
+ Number of 4 input LUTs:              13922  out of  17344    80%  
  Number of IOs:                          86
  Number of bonded IOBs:                  85  out of    250    34%  
  Number of GCLKs:                         3  out of     24    12%  
@@ -1205,37 +1186,45 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
-------------------------------------------+-------------------------------------------------------+-------+
-Clock Signal                              | Clock buffer(FF name)                                 | Load  |
-------------------------------------------+-------------------------------------------------------+-------+
-clk                                       | BUFGP                                                 | 1     |
-clk11M                                    | IBUF+BUFG                                             | 553   |
-clk25M1                                   | BUFG                                                  | 24    |
-virtualMemoryMem/serial2/Uart2/u2/clkdiv_3| NONE(virtualMemoryMem/serial2/Uart2/u2/no_bits_rcvd_3)| 5     |
-virtualMemoryMem/serial2/Uart2/u3/clk     | NONE(virtualMemoryMem/serial2/Uart2/u2/clkdiv_3)      | 9     |
-naive/calculator/t_written                | NONE(naive/registerFile/t)                            | 1     |
-------------------------------------------+-------------------------------------------------------+-------+
+------------------------------------------------------------+-------------------------------------------------------+-------+
+Clock Signal                                                | Clock buffer(FF name)                                 | Load  |
+------------------------------------------------------------+-------------------------------------------------------+-------+
+clk                                                         | BUFGP                                                 | 1     |
+clk11M                                                      | IBUF+BUFG                                             | 561   |
+clk25M1                                                     | BUFG                                                  | 24    |
+virtualMemoryMem/serial2/Uart2/u1/clkdiv_3                  | NONE(virtualMemoryMem/serial2/Uart2/u1/no_bits_sent_3)| 8     |
+virtualMemoryMem/serial2/Uart2/u3/clk                       | NONE(virtualMemoryMem/serial2/Uart2/u1/clkdiv_3)      | 17    |
+virtualMemoryMem/serial2/wrn(virtualMemoryMem/serial2/wrn:O)| NONE(*)(virtualMemoryMem/serial2/Uart2/u1/wrn0)       | 2     |
+virtualMemoryMem/serial2/Uart2/u2/clkdiv_3                  | NONE(virtualMemoryMem/serial2/Uart2/u2/no_bits_rcvd_3)| 5     |
+naive/calculator/t_written                                  | NONE(naive/registerFile/t)                            | 1     |
+------------------------------------------------------------+-------------------------------------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
 Asynchronous Control Signals Information:
 ----------------------------------------
----------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+-------+
-Control Signal                                                                                                 | Buffer(FF name)                                       | Load  |
----------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+-------+
-graphic/VGAEngineM/rst_inv(virtualMemoryMem/serial2/Uart2/u3/RST_inv1_INV_0:O)                                 | NONE(clk25M)                                          | 533   |
-virtualMemoryMem/serial2/Uart2/u2/clkdiv_not0001_inv(virtualMemoryMem/serial2/Uart2/u2/clkdiv_not0001_inv1:O)  | NONE(virtualMemoryMem/serial2/Uart2/u2/clkdiv_0)      | 4     |
-virtualMemoryMem/serial2/Uart2/u2/no_bits_rcvd_or0000(virtualMemoryMem/serial2/Uart2/u2/no_bits_rcvd_or00001:O)| NONE(virtualMemoryMem/serial2/Uart2/u2/no_bits_rcvd_0)| 4     |
-virtualMemoryMem/serial2/Uart2/u2/clk1x_enable_or0000(virtualMemoryMem/serial2/Uart2/u2/clk1x_enable_or00001:O)| NONE(virtualMemoryMem/serial2/Uart2/u2/clk1x_enable)  | 1     |
----------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+-------+
+-------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+-------+
+Control Signal                                                                                                           | Buffer(FF name)                                       | Load  |
+-------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+-------+
+graphic/VGAEngineM/rst_inv(virtualMemoryMem/serial2/Uart2/u3/RST_inv1_INV_0:O)                                           | NONE(clk25M)                                          | 550   |
+virtualMemoryMem/serial2/Uart2/u1/clkdiv_not0001_inv(virtualMemoryMem/serial2/Uart2/u1/clkdiv_not0001_inv1:O)            | NONE(virtualMemoryMem/serial2/Uart2/u1/clkdiv_0)      | 4     |
+virtualMemoryMem/serial2/Uart2/u1/no_bits_sent_not0001_inv(virtualMemoryMem/serial2/Uart2/u1/no_bits_sent_not0001_inv1:O)| NONE(virtualMemoryMem/serial2/Uart2/u1/no_bits_sent_0)| 4     |
+virtualMemoryMem/serial2/Uart2/u2/clkdiv_not0001_inv(virtualMemoryMem/serial2/Uart2/u2/clkdiv_not0001_inv1:O)            | NONE(virtualMemoryMem/serial2/Uart2/u2/clkdiv_0)      | 4     |
+virtualMemoryMem/serial2/Uart2/u2/no_bits_rcvd_or0000(virtualMemoryMem/serial2/Uart2/u2/no_bits_rcvd_or00001:O)          | NONE(virtualMemoryMem/serial2/Uart2/u2/no_bits_rcvd_0)| 4     |
+virtualMemoryMem/serial2/Uart2/u1/wrn0_0_not0000(virtualMemoryMem/serial2/Uart2/u1/wrn0_or00001:O)                       | NONE(virtualMemoryMem/serial2/Uart2/u1/wrn0)          | 1     |
+virtualMemoryMem/serial2/Uart2/u2/clk1x_enable_or0000(virtualMemoryMem/serial2/Uart2/u2/clk1x_enable_or00001:O)          | NONE(virtualMemoryMem/serial2/Uart2/u2/clk1x_enable)  | 1     |
+-------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+-------+
 
 Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 25.672ns (Maximum Frequency: 38.953MHz)
-   Minimum input arrival time before clock: 10.840ns
-   Maximum output required time after clock: 24.262ns
-   Maximum combinational path delay: 22.266ns
+   Minimum period: 26.446ns (Maximum Frequency: 37.813MHz)
+   Minimum input arrival time before clock: 11.748ns
+   Maximum output required time after clock: 24.649ns
+   Maximum combinational path delay: 22.847ns
 
 Timing Detail:
 --------------
@@ -1287,6 +1276,52 @@ Delay:               6.208ns (Levels of Logic = 2)
                                        (41.1% logic, 58.9% route)
 
 =========================================================================
+Timing constraint: Default period analysis for Clock 'virtualMemoryMem/serial2/Uart2/u1/clkdiv_3'
+  Clock period: 4.280ns (frequency: 233.645MHz)
+  Total number of paths / destination ports: 54 / 9
+-------------------------------------------------------------------------
+Delay:               4.280ns (Levels of Logic = 3)
+  Source:            virtualMemoryMem/serial2/Uart2/u1/no_bits_sent_3 (FF)
+  Destination:       virtualMemoryMem/serial2/Uart2/u1/sdo (FF)
+  Source Clock:      virtualMemoryMem/serial2/Uart2/u1/clkdiv_3 falling
+  Destination Clock: virtualMemoryMem/serial2/Uart2/u1/clkdiv_3 falling
+
+  Data Path: virtualMemoryMem/serial2/Uart2/u1/no_bits_sent_3 to virtualMemoryMem/serial2/Uart2/u1/sdo
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             10   0.591   1.057  virtualMemoryMem/serial2/Uart2/u1/no_bits_sent_3 (virtualMemoryMem/serial2/Uart2/u1/no_bits_sent_3)
+     LUT2:I0->O            1   0.704   0.000  virtualMemoryMem/serial2/Uart2/u1/sdo_mux0000121 (virtualMemoryMem/serial2/Uart2/u1/sdo_mux0000121)
+     MUXF5:I1->O           1   0.321   0.595  virtualMemoryMem/serial2/Uart2/u1/sdo_mux000012_f5 (virtualMemoryMem/serial2/Uart2/u1/sdo_mux000012)
+     LUT4:I0->O            1   0.704   0.000  virtualMemoryMem/serial2/Uart2/u1/sdo_mux000050 (virtualMemoryMem/serial2/Uart2/u1/sdo_mux0000)
+     FDP:D                     0.308          virtualMemoryMem/serial2/Uart2/u1/sdo
+    ----------------------------------------
+    Total                      4.280ns (2.628ns logic, 1.652ns route)
+                                       (61.4% logic, 38.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'virtualMemoryMem/serial2/Uart2/u3/clk'
+  Clock period: 3.078ns (frequency: 324.886MHz)
+  Total number of paths / destination ports: 39 / 22
+-------------------------------------------------------------------------
+Delay:               3.078ns (Levels of Logic = 1)
+  Source:            virtualMemoryMem/serial2/Uart2/u1/wrn1 (FF)
+  Destination:       virtualMemoryMem/serial2/Uart2/u1/tbre_t (FF)
+  Source Clock:      virtualMemoryMem/serial2/Uart2/u3/clk rising
+  Destination Clock: virtualMemoryMem/serial2/Uart2/u3/clk rising
+
+  Data Path: virtualMemoryMem/serial2/Uart2/u1/wrn1 to virtualMemoryMem/serial2/Uart2/u1/tbre_t
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              5   0.591   0.808  virtualMemoryMem/serial2/Uart2/u1/wrn1 (virtualMemoryMem/serial2/Uart2/u1/wrn1)
+     LUT4:I0->O            1   0.704   0.420  virtualMemoryMem/serial2/Uart2/u1/tbre_t_not0001 (virtualMemoryMem/serial2/Uart2/u1/tbre_t_not0001)
+     FDPE:CE                   0.555          virtualMemoryMem/serial2/Uart2/u1/tbre_t
+    ----------------------------------------
+    Total                      3.078ns (1.850ns logic, 1.228ns route)
+                                       (60.1% logic, 39.9% route)
+
+=========================================================================
 Timing constraint: Default period analysis for Clock 'virtualMemoryMem/serial2/Uart2/u2/clkdiv_3'
   Clock period: 3.114ns (frequency: 321.130MHz)
   Total number of paths / destination ports: 23 / 6
@@ -1309,33 +1344,11 @@ Delay:               3.114ns (Levels of Logic = 1)
                                        (59.4% logic, 40.6% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'virtualMemoryMem/serial2/Uart2/u3/clk'
-  Clock period: 2.892ns (frequency: 345.781MHz)
-  Total number of paths / destination ports: 16 / 9
--------------------------------------------------------------------------
-Delay:               2.892ns (Levels of Logic = 1)
-  Source:            virtualMemoryMem/serial2/Uart2/u2/rxd1 (FF)
-  Destination:       virtualMemoryMem/serial2/Uart2/u2/clk1x_enable (FF)
-  Source Clock:      virtualMemoryMem/serial2/Uart2/u3/clk rising
-  Destination Clock: virtualMemoryMem/serial2/Uart2/u3/clk rising
-
-  Data Path: virtualMemoryMem/serial2/Uart2/u2/rxd1 to virtualMemoryMem/serial2/Uart2/u2/clk1x_enable
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDP:C->Q              2   0.591   0.622  virtualMemoryMem/serial2/Uart2/u2/rxd1 (virtualMemoryMem/serial2/Uart2/u2/rxd1)
-     LUT2:I0->O            1   0.704   0.420  virtualMemoryMem/serial2/Uart2/u2/clk1x_enable_and00001 (virtualMemoryMem/serial2/Uart2/u2/clk1x_enable_and0000)
-     FDCE:CE                   0.555          virtualMemoryMem/serial2/Uart2/u2/clk1x_enable
-    ----------------------------------------
-    Total                      2.892ns (1.850ns logic, 1.042ns route)
-                                       (64.0% logic, 36.0% route)
-
-=========================================================================
 Timing constraint: Default period analysis for Clock 'clk11M'
-  Clock period: 25.672ns (frequency: 38.953MHz)
-  Total number of paths / destination ports: 81605 / 698
+  Clock period: 26.446ns (frequency: 37.813MHz)
+  Total number of paths / destination ports: 137886 / 706
 -------------------------------------------------------------------------
-Delay:               12.836ns (Levels of Logic = 8)
+Delay:               13.223ns (Levels of Logic = 8)
   Source:            naive/MeAaddrResultFF/out_11 (FF)
   Destination:       naive/reader/IRaddr_0 (FF)
   Source Clock:      clk11M rising
@@ -1346,51 +1359,53 @@ Delay:               12.836ns (Levels of Logic = 8)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDC:C->Q              2   0.591   0.622  naive/MeAaddrResultFF/out_11 (naive/MeAaddrResultFF/out_11)
-     LUT4:I0->O            1   0.704   0.595  virtualMemoryMem/indexA_and00004 (virtualMemoryMem/indexA_and00004)
-     LUT4:I0->O           38   0.704   1.268  virtualMemoryMem/indexA_and000048 (virtualMemoryMem/indexA_and0000)
+     LUT4_D:I0->O          1   0.704   0.595  virtualMemoryMem/indexA_and00004 (virtualMemoryMem/indexA_and00004)
+     LUT4:I0->O           19   0.704   1.089  virtualMemoryMem/indexA_and000048_1 (virtualMemoryMem/indexA_and000048)
      LUT4:I3->O           23   0.704   1.206  naive/MeCalResultMux/result<13>1 (MeCalResult<13>)
      LUT4:I3->O            1   0.704   0.424  naive/ExIdByPassS/selectedValue<13>85 (naive/ExIdByPassS/selectedValue<13>85)
      LUT4:I3->O            4   0.704   0.666  naive/ExIdByPassS/selectedValue<13>95 (naive/rs<13>)
-     LUT4:I1->O            1   0.704   0.455  naive/pcAdder/jumpPC_cmp_eq000167 (naive/pcAdder/jumpPC_cmp_eq000167)
-     LUT4:I2->O           16   0.704   1.034  naive/pcAdder/jumpPC_cmp_eq000182 (naive/pcAdder/jumpPC_cmp_eq0001)
-     MUXF5:S->O           15   0.739   0.000  naive/pcAdder/nextPC<15> (leddebug_15_OBUF)
-     FDC_1:D                   0.308          naive/IfPCFF/buffer_15
+     LUT4:I1->O           18   0.704   1.072  naive/pcAdder/jumpPC_cmp_eq000174 (naive/pcAdder/jumpPC_cmp_eq000174)
+     LUT4_D:I3->O         13   0.704   1.018  naive/pcAdder/nextPC<0>345 (naive/pcAdder/N4)
+     LUT3:I2->O           15   0.704   0.000  naive/pcAdder/nextPC<14> (leddebug_14_OBUF)
+     FDC_1:D                   0.308          naive/IfPCFF/buffer_14
     ----------------------------------------
-    Total                     12.836ns (6.566ns logic, 6.270ns route)
-                                       (51.2% logic, 48.8% route)
+    Total                     13.223ns (6.531ns logic, 6.692ns route)
+                                       (49.4% logic, 50.6% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk11M'
-  Total number of paths / destination ports: 591 / 109
+  Total number of paths / destination ports: 837 / 109
 -------------------------------------------------------------------------
-Offset:              10.840ns (Levels of Logic = 9)
-  Source:            dataReady_1 (PAD)
+Offset:              11.748ns (Levels of Logic = 11)
+  Source:            tsre_1 (PAD)
   Destination:       naive/reader/IRaddr_0 (FF)
   Destination Clock: clk11M falling
 
-  Data Path: dataReady_1 to naive/reader/IRaddr_0
+  Data Path: tsre_1 to naive/reader/IRaddr_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             2   1.218   0.526  dataReady_1_IBUF (dataReady_1_IBUF)
-     LUT3:I1->O            1   0.704   0.424  naive/MeCalResultMux/result<1>12_SW0 (N241)
-     LUT4:I3->O            1   0.704   0.000  naive/MeCalResultMux/result<1>45_G (N1114)
-     MUXF5:I1->O          22   0.321   1.168  naive/MeCalResultMux/result<1>45 (MeCalResult<1>)
-     LUT4:I3->O            1   0.704   0.000  naive/ExIdByPassS/selectedValue<1>97_G (N422)
-     MUXF5:I1->O           4   0.321   0.762  naive/ExIdByPassS/selectedValue<1>97 (naive/rs<1>)
-     LUT4:I0->O            1   0.704   0.499  naive/pcAdder/jumpPC_cmp_eq000182_SW0 (N193)
-     LUT4:I1->O           16   0.704   1.034  naive/pcAdder/jumpPC_cmp_eq000182 (naive/pcAdder/jumpPC_cmp_eq0001)
-     MUXF5:S->O           15   0.739   0.000  naive/pcAdder/nextPC<15> (leddebug_15_OBUF)
-     FDC_1:D                   0.308          naive/IfPCFF/buffer_15
+     IBUF:I->O             2   1.218   0.526  tsre_1_IBUF (tsre_1_IBUF)
+     LUT4:I1->O            1   0.704   0.424  naive/MeCalResultMux/result<0>12 (naive/MeCalResultMux/result<0>12)
+     LUT4:I3->O            1   0.704   0.000  naive/MeCalResultMux/result<0>59_G (N1094)
+     MUXF5:I1->O          24   0.321   1.256  naive/MeCalResultMux/result<0>59 (MeCalResult<0>)
+     LUT4:I3->O            1   0.704   0.000  naive/ExIdByPassS/selectedValue<0>97_G (N414)
+     MUXF5:I1->O          13   0.321   0.987  naive/ExIdByPassS/selectedValue<0>97 (naive/rs<0>)
+     LUT4:I3->O            1   0.704   0.000  naive/pcAdder/jumpPC_cmp_eq000186_SW1_F (N411)
+     MUXF5:I0->O           3   0.321   0.535  naive/pcAdder/jumpPC_cmp_eq000186_SW1 (N262)
+     LUT4:I3->O            1   0.704   0.424  naive/pcAdder/nextPC<0>345_SW15 (N354)
+     LUT4_D:I3->LO         1   0.704   0.179  naive/pcAdder/nextPC<1>_SW0 (N1239)
+     LUT3:I1->O           14   0.704   0.000  naive/pcAdder/nextPC<1> (leddebug_1_OBUF)
+     FDC_1:D                   0.308          naive/IfPCFF/buffer_1
     ----------------------------------------
-    Total                     10.840ns (6.427ns logic, 4.413ns route)
-                                       (59.3% logic, 40.7% route)
+    Total                     11.748ns (7.417ns logic, 4.331ns route)
+                                       (63.1% logic, 36.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'virtualMemoryMem/serial2/Uart2/u3/clk'
   Total number of paths / destination ports: 2 / 2
 -------------------------------------------------------------------------
-Offset:              4.353ns (Levels of Logic = 2)
+Offset:              4.340ns (Levels of Logic = 2)
   Source:            rst (PAD)
   Destination:       virtualMemoryMem/serial2/Uart2/u2/newdata (FF)
   Destination Clock: virtualMemoryMem/serial2/Uart2/u3/clk rising
@@ -1399,18 +1414,52 @@ Offset:              4.353ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            93   1.218   1.456  rst_IBUF (rst_IBUF)
+     IBUF:I->O            49   1.218   1.443  rst_IBUF (rst_IBUF)
      LUT3:I0->O            1   0.704   0.420  virtualMemoryMem/serial2/Uart2/u2/newdata_and00001 (virtualMemoryMem/serial2/Uart2/u2/newdata_and0000)
      FDE:CE                    0.555          virtualMemoryMem/serial2/Uart2/u2/newdata
     ----------------------------------------
-    Total                      4.353ns (2.477ns logic, 1.876ns route)
-                                       (56.9% logic, 43.1% route)
+    Total                      4.340ns (2.477ns logic, 1.863ns route)
+                                       (57.1% logic, 42.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'virtualMemoryMem/serial2/Uart2/u1/clkdiv_3'
+  Total number of paths / destination ports: 3428 / 26
+-------------------------------------------------------------------------
+Offset:              23.546ns (Levels of Logic = 16)
+  Source:            virtualMemoryMem/serial2/Uart2/u1/tsre (FF)
+  Destination:       vgaR<2> (PAD)
+  Source Clock:      virtualMemoryMem/serial2/Uart2/u1/clkdiv_3 falling
+
+  Data Path: virtualMemoryMem/serial2/Uart2/u1/tsre to vgaR<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              2   0.591   0.526  virtualMemoryMem/serial2/Uart2/u1/tsre (virtualMemoryMem/serial2/Uart2/u1/tsre)
+     LUT3:I1->O            2   0.704   0.622  naive/MeCalResultMux/result<0>12_SW0 (virtualMemoryMem/realDataB<0>0)
+     LUT4:I0->O            1   0.704   0.424  naive/MeCalResultMux/result<0>12 (naive/MeCalResultMux/result<0>12)
+     LUT4:I3->O            1   0.704   0.000  naive/MeCalResultMux/result<0>59_G (N1094)
+     MUXF5:I1->O          24   0.321   1.256  naive/MeCalResultMux/result<0>59 (MeCalResult<0>)
+     LUT4:I3->O            1   0.704   0.000  naive/ExIdByPassS/selectedValue<0>97_G (N414)
+     MUXF5:I1->O          13   0.321   0.983  naive/ExIdByPassS/selectedValue<0>97 (naive/rs<0>)
+     MUXF5:S->O            7   0.739   0.787  naive/pcAdder/jumpPC_cmp_eq000186_SW3 (N283)
+     LUT4_D:I1->O         13   0.704   1.018  naive/pcAdder/jump28 (naive/pcAdder/jump)
+     LUT3:I2->O           15   0.704   1.192  naive/pcAdder/nextPC<6> (leddebug_6_OBUF)
+     LUT4:I0->O            1   0.704   0.424  graphic/RendererM/b<1>23686 (graphic/RendererM/b<1>23686)
+     LUT4:I3->O            1   0.704   0.424  graphic/RendererM/b<1>23698 (graphic/RendererM/b<1>23698)
+     LUT4:I3->O            1   0.704   0.455  graphic/RendererM/b<1>23721_SW0 (N1019)
+     LUT3:I2->O            1   0.704   0.499  graphic/RendererM/b<1>23721 (graphic/RendererM/b<1>23721)
+     LUT4:I1->O            1   0.704   0.424  graphic/RendererM/b<1>24164 (graphic/RendererM/b<1>24164)
+     LUT4:I3->O            9   0.704   0.820  graphic/RendererM/b<1>24242 (vgaB_0_OBUF)
+     OBUF:I->O                 3.272          vgaR_2_OBUF (vgaR<2>)
+    ----------------------------------------
+    Total                     23.546ns (13.692ns logic, 9.854ns route)
+                                       (58.2% logic, 41.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk11M'
-  Total number of paths / destination ports: 2123340 / 59
+  Total number of paths / destination ports: 4001794 / 68
 -------------------------------------------------------------------------
-Offset:              24.262ns (Levels of Logic = 15)
+Offset:              24.649ns (Levels of Logic = 15)
   Source:            naive/MeAaddrResultFF/out_11 (FF)
   Destination:       vgaR<2> (PAD)
   Source Clock:      clk11M rising
@@ -1420,72 +1469,71 @@ Offset:              24.262ns (Levels of Logic = 15)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDC:C->Q              2   0.591   0.622  naive/MeAaddrResultFF/out_11 (naive/MeAaddrResultFF/out_11)
-     LUT4:I0->O            1   0.704   0.595  virtualMemoryMem/indexA_and00004 (virtualMemoryMem/indexA_and00004)
-     LUT4:I0->O           38   0.704   1.268  virtualMemoryMem/indexA_and000048 (virtualMemoryMem/indexA_and0000)
+     LUT4_D:I0->O          1   0.704   0.595  virtualMemoryMem/indexA_and00004 (virtualMemoryMem/indexA_and00004)
+     LUT4:I0->O           19   0.704   1.089  virtualMemoryMem/indexA_and000048_1 (virtualMemoryMem/indexA_and000048)
      LUT4:I3->O           23   0.704   1.206  naive/MeCalResultMux/result<13>1 (MeCalResult<13>)
      LUT4:I3->O            1   0.704   0.424  naive/ExIdByPassS/selectedValue<13>85 (naive/ExIdByPassS/selectedValue<13>85)
      LUT4:I3->O            4   0.704   0.666  naive/ExIdByPassS/selectedValue<13>95 (naive/rs<13>)
-     LUT4:I1->O            1   0.704   0.455  naive/pcAdder/jumpPC_cmp_eq000167 (naive/pcAdder/jumpPC_cmp_eq000167)
-     LUT4:I2->O           16   0.704   1.034  naive/pcAdder/jumpPC_cmp_eq000182 (naive/pcAdder/jumpPC_cmp_eq0001)
-     MUXF5:S->O           15   0.739   1.192  naive/pcAdder/nextPC<7> (leddebug_7_OBUF)
-     LUT2:I0->O            1   0.704   0.424  graphic/RendererM/b<1>23672 (graphic/RendererM/b<1>23672)
-     LUT4:I3->O            1   0.704   0.424  graphic/RendererM/b<1>23684 (graphic/RendererM/b<1>23684)
-     LUT4:I3->O            1   0.704   0.455  graphic/RendererM/b<1>23707_SW0 (N1051)
-     LUT3:I2->O            1   0.704   0.499  graphic/RendererM/b<1>23707 (graphic/RendererM/b<1>23707)
-     LUT4:I1->O            1   0.704   0.424  graphic/RendererM/b<1>24150 (graphic/RendererM/b<1>24150)
-     LUT4:I3->O            9   0.704   0.820  graphic/RendererM/b<1>24228 (vgaB_0_OBUF)
+     LUT4:I1->O           18   0.704   1.072  naive/pcAdder/jumpPC_cmp_eq000174 (naive/pcAdder/jumpPC_cmp_eq000174)
+     LUT4_D:I3->O         13   0.704   1.018  naive/pcAdder/jump28 (naive/pcAdder/jump)
+     LUT3:I2->O           15   0.704   1.192  naive/pcAdder/nextPC<6> (leddebug_6_OBUF)
+     LUT4:I0->O            1   0.704   0.424  graphic/RendererM/b<1>23686 (graphic/RendererM/b<1>23686)
+     LUT4:I3->O            1   0.704   0.424  graphic/RendererM/b<1>23698 (graphic/RendererM/b<1>23698)
+     LUT4:I3->O            1   0.704   0.455  graphic/RendererM/b<1>23721_SW0 (N1019)
+     LUT3:I2->O            1   0.704   0.499  graphic/RendererM/b<1>23721 (graphic/RendererM/b<1>23721)
+     LUT4:I1->O            1   0.704   0.424  graphic/RendererM/b<1>24164 (graphic/RendererM/b<1>24164)
+     LUT4:I3->O            9   0.704   0.820  graphic/RendererM/b<1>24242 (vgaB_0_OBUF)
      OBUF:I->O                 3.272          vgaR_2_OBUF (vgaR<2>)
     ----------------------------------------
-    Total                     24.262ns (13.754ns logic, 10.508ns route)
-                                       (56.7% logic, 43.3% route)
+    Total                     24.649ns (13.719ns logic, 10.930ns route)
+                                       (55.7% logic, 44.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk25M1'
-  Total number of paths / destination ports: 136442 / 11
+  Total number of paths / destination ports: 135848 / 11
 -------------------------------------------------------------------------
-Offset:              22.037ns (Levels of Logic = 24)
-  Source:            graphic/VGAEngineM/y_0 (FF)
+Offset:              21.765ns (Levels of Logic = 23)
+  Source:            graphic/VGAEngineM/y_1 (FF)
   Destination:       vgaR<2> (PAD)
   Source Clock:      clk25M1 falling
 
-  Data Path: graphic/VGAEngineM/y_0 to vgaR<2>
+  Data Path: graphic/VGAEngineM/y_1 to vgaR<2>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q           422   0.591   1.560  graphic/VGAEngineM/y_0 (graphic/VGAEngineM/y_0)
-     LUT1:I0->O            1   0.704   0.000  graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<0>_rt (graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<0>_rt)
-     MUXCY:S->O            1   0.464   0.000  graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<0> (graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<0>)
-     MUXCY:CI->O           1   0.059   0.000  graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<1> (graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<1>)
-     MUXCY:CI->O           1   0.059   0.000  graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<2> (graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<2>)
-     MUXCY:CI->O           1   0.059   0.000  graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<3> (graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<3>)
-     MUXCY:CI->O           1   0.059   0.000  graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<4> (graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<4>)
-     MUXCY:CI->O           1   0.059   0.000  graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<5> (graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<5>)
-     MUXCY:CI->O           1   0.059   0.000  graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<6> (graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<6>)
-     MUXCY:CI->O           1   0.059   0.000  graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<7> (graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<7>)
-     MUXCY:CI->O           1   0.059   0.000  graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<8> (graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<8>)
-     MUXCY:CI->O           1   0.059   0.000  graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<9> (graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<9>)
-     MUXCY:CI->O           1   0.459   0.424  graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<10> (graphic/RendererM/registerFile/register0/value/first/pos2/Mcompar_hit_cmp_lt0001_cy<10>)
-     LUT4:I3->O            1   0.704   0.595  graphic/RendererM/b<1>2912_SW0 (N1037)
-     LUT4:I0->O            1   0.704   0.595  graphic/RendererM/b<1>2912 (graphic/RendererM/b<1>2912)
-     LUT4:I0->O            1   0.704   0.455  graphic/RendererM/b<1>3477 (graphic/RendererM/b<1>3477)
-     LUT3:I2->O            1   0.704   0.595  graphic/RendererM/b<1>3648_SW0 (N1045)
-     LUT4:I0->O            1   0.704   0.595  graphic/RendererM/b<1>3648 (graphic/RendererM/b<1>3648)
-     LUT4:I0->O            1   0.704   0.424  graphic/RendererM/b<1>4300_SW0 (N1049)
-     LUT4:I3->O            1   0.704   0.595  graphic/RendererM/b<1>4300 (graphic/RendererM/b<1>4300)
-     LUT4:I0->O            1   0.704   0.424  graphic/RendererM/b<1>22064 (graphic/RendererM/b<1>22064)
-     LUT4:I3->O            1   0.704   0.595  graphic/RendererM/b<1>22191 (graphic/RendererM/b<1>22191)
-     LUT4:I0->O            1   0.704   0.595  graphic/RendererM/b<1>22681 (graphic/RendererM/b<1>22681)
-     LUT4:I0->O            9   0.704   0.820  graphic/RendererM/b<1>24228 (vgaB_0_OBUF)
+     FDCE:C->Q           495   0.591   1.583  graphic/VGAEngineM/y_1 (graphic/VGAEngineM/y_1)
+     LUT1:I0->O            1   0.704   0.000  graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<1>_rt (graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<1> (graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<2> (graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<3> (graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<4> (graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<5> (graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<6> (graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<7> (graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<8> (graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<9> (graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<9>)
+     MUXCY:CI->O           1   0.459   0.595  graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<10> (graphic/RendererM/renderExCalResult/value/second/pos6/Mcompar_hit_cmp_lt0001_cy<10>)
+     LUT2:I0->O            1   0.704   0.424  graphic/RendererM/b<1>344_SW0 (N459)
+     LUT4:I3->O            1   0.704   0.455  graphic/RendererM/b<1>344 (graphic/RendererM/b<1>344)
+     LUT4:I2->O            1   0.704   0.499  graphic/RendererM/b<1>479 (graphic/RendererM/b<1>479)
+     LUT2:I1->O            1   0.704   0.424  graphic/RendererM/b<1>489_SW0 (N927)
+     LUT4:I3->O            1   0.704   0.455  graphic/RendererM/b<1>489 (graphic/RendererM/b<1>489)
+     LUT4:I2->O            1   0.704   0.595  graphic/RendererM/b<1>1485 (graphic/RendererM/b<1>1485)
+     LUT4:I0->O            1   0.704   0.595  graphic/RendererM/b<1>4622 (graphic/RendererM/b<1>4622)
+     LUT4:I0->O            1   0.704   0.424  graphic/RendererM/b<1>22078 (graphic/RendererM/b<1>22078)
+     LUT4:I3->O            1   0.704   0.595  graphic/RendererM/b<1>22205 (graphic/RendererM/b<1>22205)
+     LUT4:I0->O            1   0.704   0.595  graphic/RendererM/b<1>22695 (graphic/RendererM/b<1>22695)
+     LUT4:I0->O            9   0.704   0.820  graphic/RendererM/b<1>24242 (vgaB_0_OBUF)
      OBUF:I->O                 3.272          vgaR_2_OBUF (vgaR<2>)
     ----------------------------------------
-    Total                     22.037ns (13.765ns logic, 8.272ns route)
-                                       (62.5% logic, 37.5% route)
+    Total                     21.765ns (13.706ns logic, 8.059ns route)
+                                       (63.0% logic, 37.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'naive/calculator/t_written'
-  Total number of paths / destination ports: 9384 / 25
+  Total number of paths / destination ports: 13294 / 25
 -------------------------------------------------------------------------
-Offset:              17.572ns (Levels of Logic = 12)
+Offset:              19.068ns (Levels of Logic = 13)
   Source:            naive/registerFile/t (LATCH)
   Destination:       vgaR<2> (PAD)
   Source Clock:      naive/calculator/t_written rising
@@ -1495,98 +1543,134 @@ Offset:              17.572ns (Levels of Logic = 12)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      LD_1:G->Q             4   0.676   0.622  naive/registerFile/t (naive/registerFile/t)
-     LUT4:I2->O           24   0.704   1.331  naive/pcAdder/nextPC<0>345_SW1 (N196)
-     LUT3:I1->O            1   0.704   0.000  naive/pcAdder/nextPC<0>345_SW15_F (N465)
-     MUXF5:I0->O           1   0.321   0.455  naive/pcAdder/nextPC<0>345_SW15 (N304)
-     LUT4:I2->O            1   0.704   0.000  naive/pcAdder/nextPC<7>_G (N1134)
-     MUXF5:I1->O          15   0.321   1.192  naive/pcAdder/nextPC<7> (leddebug_7_OBUF)
-     LUT2:I0->O            1   0.704   0.424  graphic/RendererM/b<1>23672 (graphic/RendererM/b<1>23672)
-     LUT4:I3->O            1   0.704   0.424  graphic/RendererM/b<1>23684 (graphic/RendererM/b<1>23684)
-     LUT4:I3->O            1   0.704   0.455  graphic/RendererM/b<1>23707_SW0 (N1051)
-     LUT3:I2->O            1   0.704   0.499  graphic/RendererM/b<1>23707 (graphic/RendererM/b<1>23707)
-     LUT4:I1->O            1   0.704   0.424  graphic/RendererM/b<1>24150 (graphic/RendererM/b<1>24150)
-     LUT4:I3->O            9   0.704   0.820  graphic/RendererM/b<1>24228 (vgaB_0_OBUF)
+     LUT4:I2->O           13   0.704   1.062  naive/pcAdder/nextPC<0>345_SW1 (N202)
+     LUT3:I1->O            1   0.704   0.000  naive/pcAdder/jumpPC_cmp_eq000186_SW1_SW2_F (N437)
+     MUXF5:I0->O           1   0.321   0.455  naive/pcAdder/jumpPC_cmp_eq000186_SW1_SW2 (N388)
+     LUT4:I2->O            1   0.704   0.499  naive/pcAdder/nextPC<0>345_SW5 (N339)
+     LUT4_L:I1->LO         1   0.704   0.179  naive/pcAdder/nextPC<6>_SW0 (N133)
+     LUT3:I1->O           15   0.704   1.192  naive/pcAdder/nextPC<6> (leddebug_6_OBUF)
+     LUT4:I0->O            1   0.704   0.424  graphic/RendererM/b<1>23686 (graphic/RendererM/b<1>23686)
+     LUT4:I3->O            1   0.704   0.424  graphic/RendererM/b<1>23698 (graphic/RendererM/b<1>23698)
+     LUT4:I3->O            1   0.704   0.455  graphic/RendererM/b<1>23721_SW0 (N1019)
+     LUT3:I2->O            1   0.704   0.499  graphic/RendererM/b<1>23721 (graphic/RendererM/b<1>23721)
+     LUT4:I1->O            1   0.704   0.424  graphic/RendererM/b<1>24164 (graphic/RendererM/b<1>24164)
+     LUT4:I3->O            9   0.704   0.820  graphic/RendererM/b<1>24242 (vgaB_0_OBUF)
      OBUF:I->O                 3.272          vgaR_2_OBUF (vgaR<2>)
     ----------------------------------------
-    Total                     17.572ns (10.926ns logic, 6.646ns route)
-                                       (62.2% logic, 37.8% route)
+    Total                     19.068ns (12.013ns logic, 7.055ns route)
+                                       (63.0% logic, 37.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'virtualMemoryMem/serial2/Uart2/u3/clk'
-  Total number of paths / destination ports: 1845 / 25
+  Total number of paths / destination ports: 6863 / 25
 -------------------------------------------------------------------------
-Offset:              21.735ns (Levels of Logic = 15)
-  Source:            virtualMemoryMem/serial2/Uart2/u2/data_ready (FF)
+Offset:              23.642ns (Levels of Logic = 16)
+  Source:            virtualMemoryMem/serial2/Uart2/u1/tbre_t (FF)
   Destination:       vgaR<2> (PAD)
   Source Clock:      virtualMemoryMem/serial2/Uart2/u3/clk rising
 
-  Data Path: virtualMemoryMem/serial2/Uart2/u2/data_ready to vgaR<2>
+  Data Path: virtualMemoryMem/serial2/Uart2/u1/tbre_t to vgaR<2>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             2   0.591   0.622  virtualMemoryMem/serial2/Uart2/u2/data_ready (virtualMemoryMem/serial2/Uart2/u2/data_ready)
-     LUT3:I0->O            1   0.704   0.424  naive/MeCalResultMux/result<1>12_SW0 (N241)
-     LUT4:I3->O            1   0.704   0.000  naive/MeCalResultMux/result<1>45_G (N1114)
-     MUXF5:I1->O          22   0.321   1.168  naive/MeCalResultMux/result<1>45 (MeCalResult<1>)
-     LUT4:I3->O            1   0.704   0.000  naive/ExIdByPassS/selectedValue<1>97_G (N422)
-     MUXF5:I1->O           4   0.321   0.762  naive/ExIdByPassS/selectedValue<1>97 (naive/rs<1>)
-     LUT4:I0->O            1   0.704   0.499  naive/pcAdder/jumpPC_cmp_eq000182_SW0 (N193)
-     LUT4:I1->O           16   0.704   1.034  naive/pcAdder/jumpPC_cmp_eq000182 (naive/pcAdder/jumpPC_cmp_eq0001)
-     MUXF5:S->O           15   0.739   1.192  naive/pcAdder/nextPC<7> (leddebug_7_OBUF)
-     LUT2:I0->O            1   0.704   0.424  graphic/RendererM/b<1>23672 (graphic/RendererM/b<1>23672)
-     LUT4:I3->O            1   0.704   0.424  graphic/RendererM/b<1>23684 (graphic/RendererM/b<1>23684)
-     LUT4:I3->O            1   0.704   0.455  graphic/RendererM/b<1>23707_SW0 (N1051)
-     LUT3:I2->O            1   0.704   0.499  graphic/RendererM/b<1>23707 (graphic/RendererM/b<1>23707)
-     LUT4:I1->O            1   0.704   0.424  graphic/RendererM/b<1>24150 (graphic/RendererM/b<1>24150)
-     LUT4:I3->O            9   0.704   0.820  graphic/RendererM/b<1>24228 (vgaB_0_OBUF)
+     FDPE:C->Q             2   0.591   0.622  virtualMemoryMem/serial2/Uart2/u1/tbre_t (virtualMemoryMem/serial2/Uart2/u1/tbre_t)
+     LUT3:I0->O            2   0.704   0.622  naive/MeCalResultMux/result<0>12_SW0 (virtualMemoryMem/realDataB<0>0)
+     LUT4:I0->O            1   0.704   0.424  naive/MeCalResultMux/result<0>12 (naive/MeCalResultMux/result<0>12)
+     LUT4:I3->O            1   0.704   0.000  naive/MeCalResultMux/result<0>59_G (N1094)
+     MUXF5:I1->O          24   0.321   1.256  naive/MeCalResultMux/result<0>59 (MeCalResult<0>)
+     LUT4:I3->O            1   0.704   0.000  naive/ExIdByPassS/selectedValue<0>97_G (N414)
+     MUXF5:I1->O          13   0.321   0.983  naive/ExIdByPassS/selectedValue<0>97 (naive/rs<0>)
+     MUXF5:S->O            7   0.739   0.787  naive/pcAdder/jumpPC_cmp_eq000186_SW3 (N283)
+     LUT4_D:I1->O         13   0.704   1.018  naive/pcAdder/jump28 (naive/pcAdder/jump)
+     LUT3:I2->O           15   0.704   1.192  naive/pcAdder/nextPC<6> (leddebug_6_OBUF)
+     LUT4:I0->O            1   0.704   0.424  graphic/RendererM/b<1>23686 (graphic/RendererM/b<1>23686)
+     LUT4:I3->O            1   0.704   0.424  graphic/RendererM/b<1>23698 (graphic/RendererM/b<1>23698)
+     LUT4:I3->O            1   0.704   0.455  graphic/RendererM/b<1>23721_SW0 (N1019)
+     LUT3:I2->O            1   0.704   0.499  graphic/RendererM/b<1>23721 (graphic/RendererM/b<1>23721)
+     LUT4:I1->O            1   0.704   0.424  graphic/RendererM/b<1>24164 (graphic/RendererM/b<1>24164)
+     LUT4:I3->O            9   0.704   0.820  graphic/RendererM/b<1>24242 (vgaB_0_OBUF)
      OBUF:I->O                 3.272          vgaR_2_OBUF (vgaR<2>)
     ----------------------------------------
-    Total                     21.735ns (12.988ns logic, 8.747ns route)
-                                       (59.8% logic, 40.2% route)
+    Total                     23.642ns (13.692ns logic, 9.950ns route)
+                                       (57.9% logic, 42.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'virtualMemoryMem/serial2/wrn'
+  Total number of paths / destination ports: 3427 / 25
+-------------------------------------------------------------------------
+Offset:              23.587ns (Levels of Logic = 16)
+  Source:            virtualMemoryMem/serial2/Uart2/u1/wrn0 (LATCH)
+  Destination:       vgaR<2> (PAD)
+  Source Clock:      virtualMemoryMem/serial2/wrn rising
+
+  Data Path: virtualMemoryMem/serial2/Uart2/u1/wrn0 to vgaR<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDP_1:G->Q            2   0.676   0.482  virtualMemoryMem/serial2/Uart2/u1/wrn0 (virtualMemoryMem/serial2/Uart2/u1/wrn0)
+     LUT3:I2->O            2   0.704   0.622  naive/MeCalResultMux/result<0>12_SW0 (virtualMemoryMem/realDataB<0>0)
+     LUT4:I0->O            1   0.704   0.424  naive/MeCalResultMux/result<0>12 (naive/MeCalResultMux/result<0>12)
+     LUT4:I3->O            1   0.704   0.000  naive/MeCalResultMux/result<0>59_G (N1094)
+     MUXF5:I1->O          24   0.321   1.256  naive/MeCalResultMux/result<0>59 (MeCalResult<0>)
+     LUT4:I3->O            1   0.704   0.000  naive/ExIdByPassS/selectedValue<0>97_G (N414)
+     MUXF5:I1->O          13   0.321   0.983  naive/ExIdByPassS/selectedValue<0>97 (naive/rs<0>)
+     MUXF5:S->O            7   0.739   0.787  naive/pcAdder/jumpPC_cmp_eq000186_SW3 (N283)
+     LUT4_D:I1->O         13   0.704   1.018  naive/pcAdder/jump28 (naive/pcAdder/jump)
+     LUT3:I2->O           15   0.704   1.192  naive/pcAdder/nextPC<6> (leddebug_6_OBUF)
+     LUT4:I0->O            1   0.704   0.424  graphic/RendererM/b<1>23686 (graphic/RendererM/b<1>23686)
+     LUT4:I3->O            1   0.704   0.424  graphic/RendererM/b<1>23698 (graphic/RendererM/b<1>23698)
+     LUT4:I3->O            1   0.704   0.455  graphic/RendererM/b<1>23721_SW0 (N1019)
+     LUT3:I2->O            1   0.704   0.499  graphic/RendererM/b<1>23721 (graphic/RendererM/b<1>23721)
+     LUT4:I1->O            1   0.704   0.424  graphic/RendererM/b<1>24164 (graphic/RendererM/b<1>24164)
+     LUT4:I3->O            9   0.704   0.820  graphic/RendererM/b<1>24242 (vgaB_0_OBUF)
+     OBUF:I->O                 3.272          vgaR_2_OBUF (vgaR<2>)
+    ----------------------------------------
+    Total                     23.587ns (13.777ns logic, 9.810ns route)
+                                       (58.4% logic, 41.6% route)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 17099 / 59
+  Total number of paths / destination ports: 25184 / 60
 -------------------------------------------------------------------------
-Delay:               22.266ns (Levels of Logic = 16)
-  Source:            dataReady_1 (PAD)
+Delay:               22.847ns (Levels of Logic = 16)
+  Source:            tsre_1 (PAD)
   Destination:       vgaR<2> (PAD)
 
-  Data Path: dataReady_1 to vgaR<2>
+  Data Path: tsre_1 to vgaR<2>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             2   1.218   0.526  dataReady_1_IBUF (dataReady_1_IBUF)
-     LUT3:I1->O            1   0.704   0.424  naive/MeCalResultMux/result<1>12_SW0 (N241)
-     LUT4:I3->O            1   0.704   0.000  naive/MeCalResultMux/result<1>45_G (N1114)
-     MUXF5:I1->O          22   0.321   1.168  naive/MeCalResultMux/result<1>45 (MeCalResult<1>)
-     LUT4:I3->O            1   0.704   0.000  naive/ExIdByPassS/selectedValue<1>97_G (N422)
-     MUXF5:I1->O           4   0.321   0.762  naive/ExIdByPassS/selectedValue<1>97 (naive/rs<1>)
-     LUT4:I0->O            1   0.704   0.499  naive/pcAdder/jumpPC_cmp_eq000182_SW0 (N193)
-     LUT4:I1->O           16   0.704   1.034  naive/pcAdder/jumpPC_cmp_eq000182 (naive/pcAdder/jumpPC_cmp_eq0001)
-     MUXF5:S->O           15   0.739   1.192  naive/pcAdder/nextPC<7> (leddebug_7_OBUF)
-     LUT2:I0->O            1   0.704   0.424  graphic/RendererM/b<1>23672 (graphic/RendererM/b<1>23672)
-     LUT4:I3->O            1   0.704   0.424  graphic/RendererM/b<1>23684 (graphic/RendererM/b<1>23684)
-     LUT4:I3->O            1   0.704   0.455  graphic/RendererM/b<1>23707_SW0 (N1051)
-     LUT3:I2->O            1   0.704   0.499  graphic/RendererM/b<1>23707 (graphic/RendererM/b<1>23707)
-     LUT4:I1->O            1   0.704   0.424  graphic/RendererM/b<1>24150 (graphic/RendererM/b<1>24150)
-     LUT4:I3->O            9   0.704   0.820  graphic/RendererM/b<1>24228 (vgaB_0_OBUF)
+     IBUF:I->O             2   1.218   0.526  tsre_1_IBUF (tsre_1_IBUF)
+     LUT4:I1->O            1   0.704   0.424  naive/MeCalResultMux/result<0>12 (naive/MeCalResultMux/result<0>12)
+     LUT4:I3->O            1   0.704   0.000  naive/MeCalResultMux/result<0>59_G (N1094)
+     MUXF5:I1->O          24   0.321   1.256  naive/MeCalResultMux/result<0>59 (MeCalResult<0>)
+     LUT4:I3->O            1   0.704   0.000  naive/ExIdByPassS/selectedValue<0>97_G (N414)
+     MUXF5:I1->O          13   0.321   0.983  naive/ExIdByPassS/selectedValue<0>97 (naive/rs<0>)
+     MUXF5:S->O            7   0.739   0.787  naive/pcAdder/jumpPC_cmp_eq000186_SW3 (N283)
+     LUT4_D:I1->O         13   0.704   1.018  naive/pcAdder/jump28 (naive/pcAdder/jump)
+     LUT3:I2->O           15   0.704   1.192  naive/pcAdder/nextPC<6> (leddebug_6_OBUF)
+     LUT4:I0->O            1   0.704   0.424  graphic/RendererM/b<1>23686 (graphic/RendererM/b<1>23686)
+     LUT4:I3->O            1   0.704   0.424  graphic/RendererM/b<1>23698 (graphic/RendererM/b<1>23698)
+     LUT4:I3->O            1   0.704   0.455  graphic/RendererM/b<1>23721_SW0 (N1019)
+     LUT3:I2->O            1   0.704   0.499  graphic/RendererM/b<1>23721 (graphic/RendererM/b<1>23721)
+     LUT4:I1->O            1   0.704   0.424  graphic/RendererM/b<1>24164 (graphic/RendererM/b<1>24164)
+     LUT4:I3->O            9   0.704   0.820  graphic/RendererM/b<1>24242 (vgaB_0_OBUF)
      OBUF:I->O                 3.272          vgaR_2_OBUF (vgaR<2>)
     ----------------------------------------
-    Total                     22.266ns (13.615ns logic, 8.651ns route)
-                                       (61.1% logic, 38.9% route)
+    Total                     22.847ns (13.615ns logic, 9.232ns route)
+                                       (59.6% logic, 40.4% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 144.00 secs
-Total CPU time to Xst completion: 144.45 secs
+Total REAL time to Xst completion: 134.00 secs
+Total CPU time to Xst completion: 134.55 secs
  
 --> 
 
-Total memory usage is 601520 kilobytes
+Total memory usage is 602544 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings : 1267 (   0 filtered)
+Number of warnings : 1239 (   0 filtered)
 Number of infos    :   62 (   0 filtered)
 

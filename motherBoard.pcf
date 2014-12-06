@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Sat Dec 06 11:42:56 2014
+// Written by: Map P.20131013 on Sat Dec 06 11:53:45 2014
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -81,6 +81,14 @@ COMP "physical_mem_bus<12>" LOCATE = SITE "P11" LEVEL 1;
 COMP "physical_mem_bus<13>" LOCATE = SITE "P10" LEVEL 1;
 COMP "physical_mem_bus<14>" LOCATE = SITE "N12" LEVEL 1;
 COMP "physical_mem_bus<15>" LOCATE = SITE "N11" LEVEL 1;
+COMP "ram1DataBus<0>" LOCATE = SITE "J12" LEVEL 1;
+COMP "ram1DataBus<1>" LOCATE = SITE "J13" LEVEL 1;
+COMP "ram1DataBus<2>" LOCATE = SITE "J14" LEVEL 1;
+COMP "ram1DataBus<3>" LOCATE = SITE "J15" LEVEL 1;
+COMP "ram1DataBus<4>" LOCATE = SITE "J16" LEVEL 1;
+COMP "ram1DataBus<5>" LOCATE = SITE "J17" LEVEL 1;
+COMP "ram1DataBus<6>" LOCATE = SITE "K12" LEVEL 1;
+COMP "ram1DataBus<7>" LOCATE = SITE "K13" LEVEL 1;
 NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
 SCHEMATIC END;
 
