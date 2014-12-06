@@ -1,0 +1,748 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.3c/examples
+valu
+Z0 !s110 1417499891
+!i10b 1
+!s100 g0<5C>nadUo?RGR6ALj3b2
+IUFWnXFWz6?1IU5XK?Z_U=2
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dZ:/Documents/2014fall/co/naivecpu
+Z3 w1414758756
+8Z:/Documents/2014fall/co/naivecpu/alu.v
+FZ:/Documents/2014fall/co/naivecpu/alu.v
+L0 1
+Z4 OP;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1417499891.610000
+!s107 Z:/Documents/2014fall/co/naivecpu/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/alu.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vASCIIRenderer
+Z6 !s110 1417499892
+!i10b 1
+!s100 P^C@zzjM0hda_cZ`^Cbol3
+I8]AfN_ko0^moP8LZOoW4l2
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/asciiRenderer.v
+FZ:/Documents/2014fall/co/naivecpu/asciiRenderer.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499892.110000
+!s107 Z:/Documents/2014fall/co/naivecpu/asciiRenderer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/asciiRenderer.v|
+!s101 -O0
+!i113 1
+R5
+n@a@s@c@i@i@renderer
+vbyPass
+R6
+!i10b 1
+!s100 Z^@O[B7jRN1;@zNQ8^eX;3
+IC7SeX_7ZYdfI`XRc0]14d1
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/byPass.v
+FZ:/Documents/2014fall/co/naivecpu/byPass.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499892.687000
+!s107 Z:/Documents/2014fall/co/naivecpu/byPass.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/byPass.v|
+!s101 -O0
+!i113 1
+R5
+nby@pass
+vcpu
+R6
+!i10b 1
+!s100 2N`NeLk>BJZQ>0>K;hD@L2
+IDWX40Vc`GHSCoPBmWPGUE1
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/cpu.v
+FZ:/Documents/2014fall/co/naivecpu/cpu.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499892.858000
+!s107 Z:/Documents/2014fall/co/naivecpu/cpu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/cpu.v|
+!s101 -O0
+!i113 1
+R5
+vDigitRenderer
+Z7 !s110 1417499893
+!i10b 1
+!s100 6`<MAegU5>0:Kba2^J2842
+I8V3b=JV;Ck5;?JQ7jgd^A0
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/digitRenderer.v
+FZ:/Documents/2014fall/co/naivecpu/digitRenderer.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499892.968000
+!s107 Z:/Documents/2014fall/co/naivecpu/digitRenderer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/digitRenderer.v|
+!s101 -O0
+!i113 1
+R5
+n@digit@renderer
+vforwarder
+R7
+!i10b 1
+!s100 S;O;<Tn^0GPeniC<CPgZc1
+IMgKQ]A]H7ob8WYnHM0XA`3
+R1
+R2
+R3
+Z8 8Z:/Documents/2014fall/co/naivecpu/forwarder.v
+Z9 FZ:/Documents/2014fall/co/naivecpu/forwarder.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1417499893.389000
+Z11 !s107 Z:/Documents/2014fall/co/naivecpu/forwarder.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/forwarder.v|
+!s101 -O0
+!i113 1
+R5
+vforwarder1bit
+R7
+!i10b 1
+!s100 AW8Nd=fgd>7SZYNZUOGAV0
+ID]MD2YQQ<:<U?dHG;JZ`[0
+R1
+R2
+R3
+R8
+R9
+L0 67
+R4
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+!i113 1
+R5
+vforwarder2bit
+R7
+!i10b 1
+!s100 G3nAJUBRgnO<JNHYF8?P=1
+I@X^ODlNI;BdZ0<fFS>lE82
+R1
+R2
+R3
+R8
+R9
+L0 23
+R4
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+!i113 1
+R5
+vforwarder4bit
+R7
+!i10b 1
+!s100 RKlE<:Rl>MFmPm=fUJ=Md2
+I:NR>hhZU<<A_J1`fcoFC01
+R1
+R2
+R3
+R8
+R9
+L0 45
+R4
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+!i113 1
+R5
+vGraphicCard
+R7
+!i10b 1
+!s100 ^O><laHlRaa;d39[ezP9e3
+IFSLB>N]F;d53PT9UT>YCM2
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/graphicCard.v
+FZ:/Documents/2014fall/co/naivecpu/graphicCard.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499893.826000
+!s107 Z:/Documents/2014fall/co/naivecpu/graphicCard.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/graphicCard.v|
+!s101 -O0
+!i113 1
+R5
+n@graphic@card
+vGraphicMemory
+Z13 !s110 1417499894
+!i10b 1
+!s100 LIM?noVYCNA;i@aC=96A]2
+IR[ZHK00Z2J_Eo?b7Z^=AZ2
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/graphicMemory.v
+FZ:/Documents/2014fall/co/naivecpu/graphicMemory.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499894.060000
+!s107 Z:/Documents/2014fall/co/naivecpu/graphicMemory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/graphicMemory.v|
+!s101 -O0
+!i113 1
+R5
+n@graphic@memory
+vIFRenderer
+R13
+!i10b 1
+!s100 FKQ=I5Rm8IXlOeIPmgPej2
+ITTTGR[IBA`=lLQgUD@z;K1
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/IFRenderer.v
+FZ:/Documents/2014fall/co/naivecpu/IFRenderer.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499894.325000
+!s107 Z:/Documents/2014fall/co/naivecpu/IFRenderer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/IFRenderer.v|
+!s101 -O0
+!i113 1
+R5
+n@i@f@renderer
+vinstructionDecoder
+R13
+!i10b 1
+!s100 HJzH]9<TjWY>kLYHJcAA63
+IKCSS;C8Hh;:GMVcbF@ETX1
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/instructDecoder.v
+FZ:/Documents/2014fall/co/naivecpu/instructDecoder.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499894.450000
+!s107 Z:/Documents/2014fall/co/naivecpu/instructDecoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/instructDecoder.v|
+!s101 -O0
+!i113 1
+R5
+ninstruction@decoder
+vinstructionReader
+R13
+!i10b 1
+!s100 GVP3<b1iD;_H?32LVmW;=2
+IFz0=CO1z5;ZWdETBOeIIo0
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/instructReader.v
+FZ:/Documents/2014fall/co/naivecpu/instructReader.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499894.637000
+!s107 Z:/Documents/2014fall/co/naivecpu/instructReader.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/instructReader.v|
+!s101 -O0
+!i113 1
+R5
+ninstruction@reader
+vinterrupt
+R13
+!i10b 1
+!s100 m8jFUdQZbA3aJi2MCF0GK3
+Ik0UKCFfK]Ej@F`SZS>jVe1
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/interrupt.v
+FZ:/Documents/2014fall/co/naivecpu/interrupt.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499894.840000
+!s107 Z:/Documents/2014fall/co/naivecpu/interrupt.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/interrupt.v|
+!s101 -O0
+!i113 1
+R5
+vinterruptArbitration
+R13
+!i10b 1
+!s100 ?2I^[@kah1[8UA]UZYUTg0
+IZ[mEJX3camT]5^I9:k@9E2
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/interruptArbitration.v
+FZ:/Documents/2014fall/co/naivecpu/interruptArbitration.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499894.949000
+!s107 Z:/Documents/2014fall/co/naivecpu/interruptArbitration.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/interruptArbitration.v|
+!s101 -O0
+!i113 1
+R5
+ninterrupt@arbitration
+vkeyboard
+Z14 !s110 1417499895
+!i10b 1
+!s100 ^MoCn`Q8mjLPZeJzTd5_W0
+IDz7R12T=JB^Fh<jfEiJCf2
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/keyboard.v
+FZ:/Documents/2014fall/co/naivecpu/keyboard.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499895.042000
+!s107 Z:/Documents/2014fall/co/naivecpu/keyboard.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/keyboard.v|
+!s101 -O0
+!i113 1
+R5
+vmeCalResultSelector
+R14
+!i10b 1
+!s100 >VzXVLBaj;nCm@R9W0S]:2
+INS93E4I8o@le5gOmRkO5d1
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/meCalResultSelector.v
+FZ:/Documents/2014fall/co/naivecpu/meCalResultSelector.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499895.152000
+!s107 Z:/Documents/2014fall/co/naivecpu/meCalResultSelector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/meCalResultSelector.v|
+!s101 -O0
+!i113 1
+R5
+nme@cal@result@selector
+vmemAddressCalculator
+R14
+!i10b 1
+!s100 0EKfC<kiI1En]46kYU=PT3
+ICeGIi`T]fS`Lo`^6f:lk@2
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/memAddressCalculator.v
+FZ:/Documents/2014fall/co/naivecpu/memAddressCalculator.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499895.261000
+!s107 Z:/Documents/2014fall/co/naivecpu/memAddressCalculator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/memAddressCalculator.v|
+!s101 -O0
+!i113 1
+R5
+nmem@address@calculator
+vMemory
+R14
+!i10b 1
+!s100 FQmO=ndJ3`ALzzUYmEChA3
+IfcG<KBi9iR`?XP_S5D9P40
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/memory.v
+FZ:/Documents/2014fall/co/naivecpu/memory.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499895.386000
+!s107 Z:/Documents/2014fall/co/naivecpu/memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/memory.v|
+!s101 -O0
+!i113 1
+R5
+n@memory
+vmemoryController
+R14
+!i10b 1
+!s100 Lm3l8`d8<2@JY`>2N?SYn0
+InLGjP]gEIITM;o2jn=zML0
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/memoryController.v
+FZ:/Documents/2014fall/co/naivecpu/memoryController.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499895.495000
+!s107 Z:/Documents/2014fall/co/naivecpu/memoryController.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/memoryController.v|
+!s101 -O0
+!i113 1
+R5
+nmemory@controller
+vmemoryMapping
+R14
+!i10b 1
+!s100 5F1;@>o>fozWi_=aVGO_K3
+I_ZSFTQ4]_:RMjknb2C@F>0
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/memoryMapping.v
+FZ:/Documents/2014fall/co/naivecpu/memoryMapping.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499895.620000
+!s107 Z:/Documents/2014fall/co/naivecpu/memoryMapping.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/memoryMapping.v|
+!s101 -O0
+!i113 1
+R5
+nmemory@mapping
+vmotherBoard
+R14
+!i10b 1
+!s100 QeHgbSfI24XohzT1R?;Ko3
+I25zfMSd15A[CZ>kKd@=RX0
+R1
+R2
+R3
+8Z:\Documents\2014fall\co\naivecpu\motherBoard.v
+FZ:\Documents\2014fall\co\naivecpu\motherBoard.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499895.822000
+!s107 Z:\Documents\2014fall\co\naivecpu\motherBoard.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:\Documents\2014fall\co\naivecpu\motherBoard.v|
+!s101 -O0
+!i113 1
+R5
+nmother@board
+vNumberRenderer
+R14
+!i10b 1
+!s100 B3bD;Oz:`z>9P:MLRER`a2
+I3A^kz[C=0eAIleT3Mh>em2
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/numberRenderer.v
+FZ:/Documents/2014fall/co/naivecpu/numberRenderer.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499895.932000
+!s107 Z:/Documents/2014fall/co/naivecpu/numberRenderer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/numberRenderer.v|
+!s101 -O0
+!i113 1
+R5
+n@number@renderer
+vPCadder
+Z15 !s110 1417499896
+!i10b 1
+!s100 FG@koMX<Q0TOcPUefO@Sf2
+IC]:k>IE2kmB<3CDb^b>Te3
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/PCadder.v
+FZ:/Documents/2014fall/co/naivecpu/PCadder.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499896.056000
+!s107 Z:/Documents/2014fall/co/naivecpu/PCadder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/PCadder.v|
+!s101 -O0
+!i113 1
+R5
+n@p@cadder
+vRectRenderer
+R15
+!i10b 1
+!s100 fmg6Fcb^e^HmG=7T[Uodc3
+I5<E`eXUBJ=;l46bQUggC01
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/rectRenderer.v
+FZ:/Documents/2014fall/co/naivecpu/rectRenderer.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499896.166000
+!s107 Z:/Documents/2014fall/co/naivecpu/rectRenderer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/rectRenderer.v|
+!s101 -O0
+!i113 1
+R5
+n@rect@renderer
+vRegister
+R15
+!i10b 1
+!s100 8<aSmVe]4PM?9Xk3zHUFL3
+IKEz1Kn=H8IdJUkk1Q0oA<3
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/register.v
+FZ:/Documents/2014fall/co/naivecpu/register.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499896.290000
+!s107 Z:/Documents/2014fall/co/naivecpu/register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/register.v|
+!s101 -O0
+!i113 1
+R5
+n@register
+vRegisterHeapRenderer
+R15
+!i10b 1
+!s100 >PSX@Fk]YeJhlZ479m>Ui0
+IFFgROm=UD7]24AEb>mP8b3
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/registerHeapRenderer.v
+FZ:/Documents/2014fall/co/naivecpu/registerHeapRenderer.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499896.400000
+!s107 Z:/Documents/2014fall/co/naivecpu/registerHeapRenderer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/registerHeapRenderer.v|
+!s101 -O0
+!i113 1
+R5
+n@register@heap@renderer
+vregisterRenderer
+R15
+!i10b 1
+!s100 :OaN6326MNo6cT^k7=2o12
+I>]m@7LAk[H4Q5hNiDn19F1
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/registerRenderer.v
+FZ:/Documents/2014fall/co/naivecpu/registerRenderer.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499896.509000
+!s107 Z:/Documents/2014fall/co/naivecpu/registerRenderer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/registerRenderer.v|
+!s101 -O0
+!i113 1
+R5
+nregister@renderer
+vRenderer
+R15
+!i10b 1
+!s100 W`d?U_3o^6WRI3C97boP92
+IoXXeZ>5JOePeE2MbX<5ml1
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/renderer.v
+FZ:/Documents/2014fall/co/naivecpu/renderer.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499896.634000
+!s107 Z:/Documents/2014fall/co/naivecpu/renderer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/renderer.v|
+!s101 -O0
+!i113 1
+R5
+n@renderer
+vromController
+R15
+!i10b 1
+!s100 cOgZ8`3jl^QlMA;:bS@IK3
+Ij7<Y]H:`NZSG9P?6GIDG91
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/romController.v
+FZ:/Documents/2014fall/co/naivecpu/romController.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499896.743000
+!s107 Z:/Documents/2014fall/co/naivecpu/romController.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/romController.v|
+!s101 -O0
+!i113 1
+R5
+nrom@controller
+vselector
+R15
+!i10b 1
+!s100 W7ZN_I4BJ`10A3Vhd2jBA0
+IN^lj7Dh`US1BTFW]ngPC^2
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/selector.v
+FZ:/Documents/2014fall/co/naivecpu/selector.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499896.852000
+!s107 Z:/Documents/2014fall/co/naivecpu/selector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/selector.v|
+!s101 -O0
+!i113 1
+R5
+vserial_port
+!s110 1417499897
+!i10b 1
+!s100 GkVB>n`Of6Df`XXgjkz3L2
+IPZ3lfQXa@nj>oB[RW?QQY3
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/serialPort.v
+FZ:/Documents/2014fall/co/naivecpu/serialPort.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499896.977000
+!s107 Z:/Documents/2014fall/co/naivecpu/serialPort.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/serialPort.v|
+!s101 -O0
+!i113 1
+R5
+vVGAEngine
+R0
+!i10b 1
+!s100 EncDM@?>TEmGbIeFU50D42
+IF1E?ZfEH?2=KDhLd_D0K71
+R1
+R2
+R3
+8Z:/Documents/2014fall/co/naivecpu/VGAEngine.v
+FZ:/Documents/2014fall/co/naivecpu/VGAEngine.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1417499891.470000
+!s107 Z:/Documents/2014fall/co/naivecpu/VGAEngine.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Documents/2014fall/co/naivecpu/VGAEngine.v|
+!s101 -O0
+!i113 1
+R5
+n@v@g@a@engine

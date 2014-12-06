@@ -1,0 +1,4 @@
+vhdl work "G:\GitHub\mac-4ce255f62f1bb7056b73a762c2c42f3276f75a89\txmit.vhd"
+vhdl work "G:\GitHub\mac-4ce255f62f1bb7056b73a762c2c42f3276f75a89\rcvr.vhd"
+vhdl work "G:\GitHub\mac-4ce255f62f1bb7056b73a762c2c42f3276f75a89\clkcon.vhd"
+vhdl work "G:\GitHub\mac-4ce255f62f1bb7056b73a762c2c42f3276f75a89\uart2.vhd"

@@ -1,0 +1,214 @@
+Z:/Documents/2014fall/co/naivecpu/numberRenderer.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/numberRenderer.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module NumberRenderer
+
+Top level modules:
+	NumberRenderer
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/asciiRenderer.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/asciiRenderer.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module ASCIIRenderer
+
+Top level modules:
+	ASCIIRenderer
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/meCalResultSelector.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/meCalResultSelector.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module meCalResultSelector
+
+Top level modules:
+	meCalResultSelector
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/instructDecoder.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/instructDecoder.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module instructionDecoder
+
+Top level modules:
+	instructionDecoder
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/PCadder.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/PCadder.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module PCadder
+
+Top level modules:
+	PCadder
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/registerRenderer.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/registerRenderer.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module registerRenderer
+
+Top level modules:
+	registerRenderer
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/forwarder.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/forwarder.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module forwarder
+-- Compiling module forwarder2bit
+-- Compiling module forwarder4bit
+-- Compiling module forwarder1bit
+
+Top level modules:
+	forwarder
+	forwarder2bit
+	forwarder4bit
+	forwarder1bit
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/serialPort.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/serialPort.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module serial_port
+
+Top level modules:
+	serial_port
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/memoryMapping.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/memoryMapping.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module memoryMapping
+
+Top level modules:
+	memoryMapping
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/interrupt.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/interrupt.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module interrupt
+
+Top level modules:
+	interrupt
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/renderer.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/renderer.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module Renderer
+
+Top level modules:
+	Renderer
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/memAddressCalculator.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/memAddressCalculator.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module memAddressCalculator
+
+Top level modules:
+	memAddressCalculator
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/instructReader.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/instructReader.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module instructionReader
+
+Top level modules:
+	instructionReader
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/cpu.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/cpu.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module cpu
+
+Top level modules:
+	cpu
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/digitRenderer.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/digitRenderer.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module DigitRenderer
+
+Top level modules:
+	DigitRenderer
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/graphicCard.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/graphicCard.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module GraphicCard
+
+Top level modules:
+	GraphicCard
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/selector.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/selector.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module selector
+
+Top level modules:
+	selector
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/memory.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/memory.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/keyboard.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/keyboard.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module keyboard
+
+Top level modules:
+	keyboard
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/romController.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/romController.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module romController
+
+Top level modules:
+	romController
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/registerHeapRenderer.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/registerHeapRenderer.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module RegisterHeapRenderer
+
+Top level modules:
+	RegisterHeapRenderer
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/byPass.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/byPass.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module byPass
+
+Top level modules:
+	byPass
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/interruptArbitration.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/interruptArbitration.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module interruptArbitration
+
+Top level modules:
+	interruptArbitration
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/VGAEngine.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/VGAEngine.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module VGAEngine
+
+Top level modules:
+	VGAEngine
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/register.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/register.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/rectRenderer.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/rectRenderer.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module RectRenderer
+
+Top level modules:
+	RectRenderer
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/monaco.v {0 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/monaco.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+** Error: Z:/Documents/2014fall/co/naivecpu/monaco.v(1): near "if": syntax error, unexpected if, expecting class
+
+} {3.0 4.0} {}} Z:/Documents/2014fall/co/naivecpu/memoryController.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/memoryController.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module memoryController
+
+Top level modules:
+	memoryController
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/IFRenderer.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/IFRenderer.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module IFRenderer
+
+Top level modules:
+	IFRenderer
+
+} {} {}} Z:/Documents/2014fall/co/naivecpu/graphicMemory.v {1 {vlog -work work -stats=none Z:/Documents/2014fall/co/naivecpu/graphicMemory.v
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module GraphicMemory
+
+Top level modules:
+	GraphicMemory
+
+} {} {}}

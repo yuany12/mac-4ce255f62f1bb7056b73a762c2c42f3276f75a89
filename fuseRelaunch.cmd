@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "Z:/Documents/2014fall/co/naivecpu/testMotherBoard_isim_beh.exe" -prj "Z:/Documents/2014fall/co/naivecpu/testMotherBoard_beh.prj" "work.testMotherBoard" "work.glbl" 
