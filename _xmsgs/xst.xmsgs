@@ -3395,10 +3395,10 @@
 <msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;digitRenderer.v&quot; line 89 </arg>Connection to input port &apos;<arg fmt="%s" index="2">height</arg>&apos; does not match port size
 </msg>
 
-<msg type="warning" file="HDLCompilers" num="261" delta="new" ><arg fmt="%s" index="1">&quot;VirtualMemory.v&quot; line 46 </arg>Connection to output port &apos;<arg fmt="%s" index="2">status</arg>&apos; does not match port size
+<msg type="warning" file="HDLCompilers" num="261" delta="old" ><arg fmt="%s" index="1">&quot;VirtualMemory.v&quot; line 46 </arg>Connection to output port &apos;<arg fmt="%s" index="2">status</arg>&apos; does not match port size
 </msg>
 
-<msg type="warning" file="HDLCompilers" num="261" delta="new" ><arg fmt="%s" index="1">&quot;VirtualMemory.v&quot; line 54 </arg>Connection to output port &apos;<arg fmt="%s" index="2">status</arg>&apos; does not match port size
+<msg type="warning" file="HDLCompilers" num="261" delta="old" ><arg fmt="%s" index="1">&quot;VirtualMemory.v&quot; line 54 </arg>Connection to output port &apos;<arg fmt="%s" index="2">status</arg>&apos; does not match port size
 </msg>
 
 <msg type="warning" file="Xst" num="863" delta="old" >&quot;<arg fmt="%s" index="1">cpu.v</arg>&quot; line <arg fmt="%d" index="2">96</arg>: Name conflict (<arg fmt="%s" index="3">&lt;Y_conflict_EX&gt; and &lt;Y_CONFLICT_EX&gt;, renaming Y_conflict_EX as y_conflict_ex_rnm0</arg>).
@@ -3468,7 +3468,13 @@
 <msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">busWritten</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">MeMemResult&lt;15:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">MeMemResult&lt;15:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="2117" delta="new" >HDL ADVISOR - Mux Selector &lt;<arg fmt="%s" index="1">indexB</arg>&gt; of Case statement line <arg fmt="%s" index="2">113</arg> was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+	- add an &apos;<arg fmt="%s" index="3">INIT</arg>&apos; attribute on signal &lt;<arg fmt="%s" index="4">indexB</arg>&gt; (optimization is then done without any risk)
+	- use the attribute &apos;<arg fmt="%s" index="5">signal_encoding</arg> <arg fmt="%s" index="6">user</arg>&apos; to avoid onehot optimization
+	- use the attribute &apos;<arg fmt="%s" index="7">safe_implementation</arg> <arg fmt="%s" index="8">yes</arg>&apos; to force XST to perform a safe (but less efficient) optimization
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">registers&lt;143:80&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.

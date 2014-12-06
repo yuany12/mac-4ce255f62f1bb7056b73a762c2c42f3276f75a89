@@ -48,7 +48,7 @@ serialConn serial1 (
 
 serialConn2 serial2(
   clk, rst,
-  memRW, indexB,
+  memRW, indexA,
   MeMemResult[7:0],
   serialPortData_2,
   serialPortState_2,

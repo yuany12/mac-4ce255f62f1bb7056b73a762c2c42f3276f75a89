@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-YUANYUAN-PC::  Sat Dec 06 15:33:19 2014
+YUANYUAN-PC::  Sat Dec 06 16:08:48 2014
 
 par -w -intstyle ise -ol high -t 1 motherBoard_map.ncd motherBoard.ncd
 motherBoard.pcf 
@@ -46,7 +46,7 @@ Design Summary Report:
 
 
    Number of BUFGMUXs                        5 out of 24     20%
-   Number of Slices                       7721 out of 8672   89%
+   Number of Slices                       7722 out of 8672   89%
       Number of SLICEMs                      0 out of 4336    0%
 
 
@@ -66,43 +66,43 @@ Total REAL time at the beginning of Placer: 15 secs
 Total CPU  time at the beginning of Placer: 15 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:dedf8c1d) REAL time: 18 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:dedfaaa1) REAL time: 18 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:dedf8c1d) REAL time: 18 secs 
+Phase 2.7  Design Feasibility Check (Checksum:dedfaaa1) REAL time: 18 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:dedf8c1d) REAL time: 18 secs 
+Phase 3.31  Local Placement Optimization (Checksum:dedfaaa1) REAL time: 18 secs 
 
 Phase 4.2  Initial Clock and IO Placement
 
-Phase 4.2  Initial Clock and IO Placement (Checksum:aafa55d3) REAL time: 19 secs 
+Phase 4.2  Initial Clock and IO Placement (Checksum:aafa7457) REAL time: 19 secs 
 
 Phase 5.30  Global Clock Region Assignment
-Phase 5.30  Global Clock Region Assignment (Checksum:aafa55d3) REAL time: 19 secs 
+Phase 5.30  Global Clock Region Assignment (Checksum:aafa7457) REAL time: 19 secs 
 
 Phase 6.36  Local Placement Optimization
-Phase 6.36  Local Placement Optimization (Checksum:aafa55d3) REAL time: 19 secs 
+Phase 6.36  Local Placement Optimization (Checksum:aafa7457) REAL time: 19 secs 
 
 Phase 7.8  Global Placement
-.................................................................................
-....
-.................................................................................
-......
-.....
-Phase 7.8  Global Placement (Checksum:8aa58006) REAL time: 40 secs 
+..............................................................................
+...
+.................................................................................................................................................................
+..
+..
+Phase 7.8  Global Placement (Checksum:b45fe6e0) REAL time: 42 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:8aa58006) REAL time: 40 secs 
+Phase 8.5  Local Placement Optimization (Checksum:b45fe6e0) REAL time: 42 secs 
 
 Phase 9.18  Placement Optimization
-Phase 9.18  Placement Optimization (Checksum:9c962e1d) REAL time: 47 secs 
+Phase 9.18  Placement Optimization (Checksum:670d9b6e) REAL time: 50 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:9c962e1d) REAL time: 47 secs 
+Phase 10.5  Local Placement Optimization (Checksum:670d9b6e) REAL time: 50 secs 
 
-Total REAL time to Placer completion: 48 secs 
-Total CPU  time to Placer completion: 47 secs 
+Total REAL time to Placer completion: 51 secs 
+Total CPU  time to Placer completion: 50 secs 
 Writing design to file motherBoard.ncd
 
 
@@ -110,40 +110,40 @@ Writing design to file motherBoard.ncd
 Starting Router
 
 
-Phase  1  : 26952 unrouted;      REAL time: 1 mins 16 secs 
+Phase  1  : 26954 unrouted;      REAL time: 1 mins 17 secs 
 
-Phase  2  : 25390 unrouted;      REAL time: 1 mins 29 secs 
+Phase  2  : 25394 unrouted;      REAL time: 1 mins 31 secs 
 
-Phase  3  : 3044 unrouted;      REAL time: 1 mins 41 secs 
+Phase  3  : 3178 unrouted;      REAL time: 1 mins 43 secs 
 
-Phase  4  : 3071 unrouted; (Par is working to improve performance)     REAL time: 1 mins 45 secs 
+Phase  4  : 3212 unrouted; (Par is working to improve performance)     REAL time: 1 mins 47 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 1 mins 59 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 2 secs 
 
 Updating file: motherBoard.ncd with current fully routed design.
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 8 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 10 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 13 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 26 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 22 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 34 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 22 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 35 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 23 secs 
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 35 secs 
 
-Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 24 secs 
+Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 36 secs 
 
-Phase 12  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 25 secs 
+Phase 12  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 37 secs 
 WARNING:Route:455 - CLK Net:virtualMemory/serial2/Uart2/u3/clk may have excessive skew because 
-      2 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+      1 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
 WARNING:Route:455 - CLK Net:virtualMemory/serial2/wrn may have excessive skew because 
-      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+      4 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
 WARNING:Route:455 - CLK Net:virtualMemory/serial2/Uart2/u1/clkdiv<3> may have excessive skew because 
       0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
 
-Total REAL time to Router completion: 2 mins 25 secs 
-Total CPU time to Router completion: 2 mins 22 secs 
+Total REAL time to Router completion: 2 mins 38 secs 
+Total CPU time to Router completion: 2 mins 35 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -161,30 +161,30 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|         clk11M_IBUF | BUFGMUX_X2Y11| No   |  336 |  0.147     |  0.316      |
+|         clk11M_IBUF | BUFGMUX_X2Y11| No   |  337 |  0.114     |  0.283      |
 +---------------------+--------------+------+------+------------+-------------+
-|           clk_BUFGP | BUFGMUX_X2Y10| No   |    1 |  0.000     |  0.213      |
+|           clk_BUFGP | BUFGMUX_X2Y10| No   |    1 |  0.000     |  0.218      |
 +---------------------+--------------+------+------+------------+-------------+
-|            rst_IBUF |  BUFGMUX_X2Y1| No   |    4 |  0.007     |  0.257      |
+|            rst_IBUF |  BUFGMUX_X2Y1| No   |    4 |  0.061     |  0.266      |
 +---------------------+--------------+------+------+------------+-------------+
-|              clk25M |  BUFGMUX_X1Y0| No   |   14 |  0.017     |  0.195      |
+|              clk25M |  BUFGMUX_X1Y0| No   |   14 |  0.028     |  0.197      |
 +---------------------+--------------+------+------+------------+-------------+
 |virtualMemory/serial |              |      |      |            |             |
 |2/Uart2/u2/clkdiv<3> |              |      |      |            |             |
-|                     | BUFGMUX_X1Y10| No   |   11 |  0.019     |  0.188      |
+|                     | BUFGMUX_X1Y10| No   |   11 |  0.023     |  0.205      |
 +---------------------+--------------+------+------+------------+-------------+
 |virtualMemory/serial |              |      |      |            |             |
-|      2/Uart2/u3/clk |         Local|      |   12 |  1.251     |  3.053      |
+|      2/Uart2/u3/clk |         Local|      |   12 |  0.399     |  2.215      |
 +---------------------+--------------+------+------+------------+-------------+
 |virtualMemory/serial |              |      |      |            |             |
 |2/Uart2/u1/clkdiv<3> |              |      |      |            |             |
-|                     |         Local|      |   14 |  0.088     |  1.877      |
+|                     |         Local|      |   14 |  0.034     |  1.542      |
 +---------------------+--------------+------+------+------------+-------------+
 |virtualMemory/serial |              |      |      |            |             |
-|               2/wrn |         Local|      |    6 |  0.240     |  2.104      |
+|               2/wrn |         Local|      |    6 |  0.557     |  1.812      |
 +---------------------+--------------+------+------+------------+-------------+
 |naive/calculator/t_w |              |      |      |            |             |
-|              ritten |         Local|      |    1 |  0.000     |  1.426      |
+|              ritten |         Local|      |    1 |  0.000     |  0.618      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -205,26 +205,26 @@ Asterisk (*) preceding a constraint indicates it was not met.
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
   Autotimespec constraint for clock net clk | SETUP       |         N/A|    26.044ns|     N/A|           0
-  11M_IBUF                                  | HOLD        |     1.344ns|            |       0|           0
+  11M_IBUF                                  | HOLD        |     1.432ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net clk | SETUP       |         N/A|     1.569ns|     N/A|           0
-  _BUFGP                                    | HOLD        |     1.102ns|            |       0|           0
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     1.560ns|     N/A|           0
+  _BUFGP                                    | HOLD        |     1.094ns|            |       0|           0
                                             | MINPERIOD   |         N/A|     1.652ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net rst | SETUP       |         N/A|     2.146ns|     N/A|           0
-  _IBUF                                     | HOLD        |     1.390ns|            |       0|           0
+  Autotimespec constraint for clock net rst | SETUP       |         N/A|     2.170ns|     N/A|           0
+  _IBUF                                     | HOLD        |     1.413ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net clk | SETUP       |         N/A|     6.738ns|     N/A|           0
-  25M                                       | HOLD        |     2.119ns|            |       0|           0
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     6.545ns|     N/A|           0
+  25M                                       | HOLD        |     2.250ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net vir | SETUP       |         N/A|     3.735ns|     N/A|           0
-  tualMemory/serial2/Uart2/u2/clkdiv<3>     | HOLD        |     0.984ns|            |       0|           0
+  Autotimespec constraint for clock net vir | SETUP       |         N/A|     3.795ns|     N/A|           0
+  tualMemory/serial2/Uart2/u2/clkdiv<3>     | HOLD        |     0.991ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net vir | SETUP       |         N/A|     3.338ns|     N/A|           0
-  tualMemory/serial2/Uart2/u3/clk           | HOLD        |     0.205ns|            |       0|           0
+  Autotimespec constraint for clock net vir | SETUP       |         N/A|     3.372ns|     N/A|           0
+  tualMemory/serial2/Uart2/u3/clk           | HOLD        |     1.180ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net vir | SETUP       |         N/A|     5.350ns|     N/A|           0
-  tualMemory/serial2/Uart2/u1/clkdiv<3>     | HOLD        |     1.192ns|            |       0|           0
+  Autotimespec constraint for clock net vir | SETUP       |         N/A|     4.608ns|     N/A|           0
+  tualMemory/serial2/Uart2/u1/clkdiv<3>     | HOLD        |     1.193ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -242,10 +242,10 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 1 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 2 mins 30 secs 
-Total CPU time to PAR completion: 2 mins 27 secs 
+Total REAL time to PAR completion: 2 mins 42 secs 
+Total CPU time to PAR completion: 2 mins 39 secs 
 
-Peak Memory Usage:  653 MB
+Peak Memory Usage:  661 MB
 
 Placement: Completed - No errors found.
 Routing: Completed - No errors found.
