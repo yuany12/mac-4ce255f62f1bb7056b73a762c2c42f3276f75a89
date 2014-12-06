@@ -17,7 +17,7 @@
 <msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">naive/calculator/res_cmp_eq00031</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">naive/calculator/res_mux0000&lt;5&gt;110_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
 </msg>
 
-<msg type="warning" file="PhysDesignRules" num="372" delta="new" >Gated clock. Clock net <arg fmt="%s" index="1">virtualMemoryMem/serial2/wrn</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">virtualMemory/serial2/wrn</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
 </msg>
 
 <msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">clkClick_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.

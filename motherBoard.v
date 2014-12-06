@@ -24,8 +24,8 @@ reg clk25M, clk12M, clk6M;
 wire [175:0] registerValue; //vga
 wire [15:0] memAaddr, memBaddr, memAdataRead, memBdataRead, MeMemResult;
 
-wire [7:0] serialPortDataRead_1, serialPortDataRead_2;
-wire [3:0] serialPortState_1, serialPortState_2;
+//wire [7:0] serialPortDataRead_1, serialPortDataRead_2;
+//wire [3:0] serialPortState_1, serialPortState_2;
 
 wire [1:0] memRW;
 wire [2:0] index;
@@ -122,11 +122,14 @@ memoryController memory(
 //);
 
 
-VirtualMemory virtualMemoryMem(
+//wire indexB;
+
+VirtualMemory virtualMemory(
   .clk(clk11M),
   .rst(rst),
-  .MeMemResult(MeMemResult), 
   .memRW(memRW),
+  .MeMemResult(MeMemResult), 
+  
   .virtualAddrA(memAaddr),
   .actualRamAddrA(physicalMemAaddr),
   .ramDataA(ramAdataRead),
@@ -137,7 +140,7 @@ VirtualMemory virtualMemoryMem(
   .actualRamAddrB(physicalMemBaddr),
   .ramDataB(ramBdataRead),
   .realDataB(memBdataRead),
-
+//  .indexB(indexB),
   .tbre_1(tbre_1),
   .tsre_1(tsre_1), 
   .dataReady_1(dataReady_1),    // wires linked with CPLD

@@ -2,8 +2,8 @@ module VirtualMemory(
   input clk,
   input rst,
   
-  input memRW, 
-  input MeMemResult,
+  input [1:0] memRW, 
+  input [15:0] MeMemResult,
 
   input [15:0] virtualAddrA,
   output reg [15:0] actualRamAddrA,
@@ -15,7 +15,7 @@ module VirtualMemory(
   output reg [15:0] actualRamAddrB,
   input [15:0] ramDataB,
   output reg [15:0] realDataB,
-  output reg [2:0] indexB,
+  
 
   input tbre_1, tsre_1, dataReady_1,    // wires linked with CPLD
   inout [7:0] ram1DataBus,       // bus
@@ -27,29 +27,30 @@ module VirtualMemory(
   output u_rxd
 );
 
-reg [7:0] serialPortData_1;
+wire [7:0] serialPortData_1;
 wire [1:0] serialPortState_1;
-reg [7:0] serialPortData_2;
+wire [7:0] serialPortData_2;
 wire [1:0] serialPortState_2;
 
+reg [2:0] indexB;
 
 serialConn serial1 (
   clk, rst,
   tbre_1, tsre_1, dataReady_1,
   memRW, indexA,
-  MeMemResult,
+  MeMemResult[7:0],
   ram1DataBus,
   rdn_1, wrn_1,
   ram1Oe_1, ram1We_1, ram1En_1,
-  serialPortDataRead_1,
+  serialPortData_1,
   serialPortState_1
 );
 
 serialConn2 serial2(
   clk, rst,
   memRW, indexB,
-  MeMemResult,
-  serialPortDataRead_2,
+  MeMemResult[7:0],
+  serialPortData_2,
   serialPortState_2,
   u_txd,
   u_rxd
