@@ -7,13 +7,13 @@ module VirtualMemory(
 
   input [15:0] virtualAddrA,
   output reg [15:0] actualRamAddrA,
-  input [15:0] ramDataA,
+ // input [15:0] ramDataA,
   output reg [15:0] realDataA,
   output reg [2:0] indexA,
   
   input [15:0] virtualAddrB,
   output reg [15:0] actualRamAddrB,
-  input [15:0] ramDataB,
+//  input [15:0] ramDataB,
   output reg [15:0] realDataB,
   
 
@@ -37,6 +37,7 @@ wire [7:0] serialPortData_1;
 wire [1:0] serialPortState_1;
 wire [7:0] serialPortData_2;
 wire [1:0] serialPortState_2;
+wire [15:0] ramDataA, ramDataB; 
 
 reg [2:0] indexB;
 
@@ -63,20 +64,21 @@ serialConn2 serial2(
 );
 
 memoryController physicalMemory(
-  clk,
-  actualRamAddrA, //actualRamAddrA
-  MeMemResult,
-  memRW,
-  ramDataA,//out
-  actualRamAddrB,
-  ramDataB,//out
-  physical_mem_bus,//out
-  physical_mem_addr,
-  physical_mem_read, 
-  physical_mem_write, 
-  physical_mem_enable
+  .clk(clk), 
+  .Aaddr(actualRamAddrA), //actualRamAddrA
+  .dataWrite(MeMemResult),
+  .rw(memRW),
+  .AdataRead(ramDataA),//out
+  .Baddr(actualRamAddrB),
+  .BdataRead(ramDataB),//out
+  .dataBus(physical_mem_bus),//inout
+  .addrBus(physical_mem_addr),//out
+  .memRead(physical_mem_read), //out
+  .memWrite(physical_mem_write), //out
+  .memEnable(physical_mem_enable) //out
 );
 
+  
 localparam RAM = 3'b000,
   SERIALPORT_DATA_1 = 3'b010,
   SERIALPORT_STATE_1 = 3'b011,

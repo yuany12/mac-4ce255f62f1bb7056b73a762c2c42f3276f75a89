@@ -9,35 +9,37 @@ Target Device  : xc3s1200e
 Target Package : fg320
 Target Speed   : -4
 Mapper Version : spartan3e -- $Revision: 1.55 $
-Mapped Date    : Sat Dec 06 16:33:12 2014
+Mapped Date    : Sat Dec 06 18:01:14 2014
 
 Design Summary
 --------------
 Number of errors:      0
-Number of warnings:   29
+Number of warnings:    3
 Logic Utilization:
-  Number of Slice Flip Flops:           153 out of  17,344    1%
-  Number of 4 input LUTs:             8,164 out of  17,344   47%
+  Total Number Slice Registers:         659 out of  17,344    3%
+    Number used as Flip Flops:          617
+    Number used as Latches:              42
+  Number of 4 input LUTs:             9,765 out of  17,344   56%
 Logic Distribution:
-  Number of occupied Slices:          6,515 out of   8,672   75%
-    Number of Slices containing only related logic:   6,515 out of   6,515 100%
-    Number of Slices containing unrelated logic:          0 out of   6,515   0%
+  Number of occupied Slices:          7,723 out of   8,672   89%
+    Number of Slices containing only related logic:   7,723 out of   7,723 100%
+    Number of Slices containing unrelated logic:          0 out of   7,723   0%
       *See NOTES below for an explanation of the effects of unrelated logic.
-  Total Number of 4 input LUTs:      11,935 out of  17,344   68%
-    Number used as logic:             8,164
-    Number used as a route-thru:      3,771
+  Total Number of 4 input LUTs:      13,829 out of  17,344   79%
+    Number used as logic:             9,765
+    Number used as a route-thru:      4,064
 
   The Slice Logic Distribution report is not meaningful if the design is
   over-mapped for a non-slice resource or if Placement fails.
 
-  Number of bonded IOBs:                 62 out of     250   24%
-  Number of BUFGMUXs:                     3 out of      24   12%
+  Number of bonded IOBs:                 86 out of     250   34%
+  Number of BUFGMUXs:                     5 out of      24   20%
 
-Average Fanout of Non-Clock Nets:                2.80
+Average Fanout of Non-Clock Nets:                2.87
 
-Peak Memory Usage:  492 MB
-Total REAL time to MAP completion:  1 mins 11 secs 
-Total CPU time to MAP completion:   1 mins 6 secs 
+Peak Memory Usage:  512 MB
+Total REAL time to MAP completion:  1 mins 16 secs 
+Total CPU time to MAP completion:   1 mins 14 secs 
 
 NOTES:
 
@@ -78,75 +80,19 @@ Section 1 - Errors
 
 Section 2 - Warnings
 --------------------
-WARNING:MapLib:701 - Signal ram1DataBus<7> connected to top level port
-   ram1DataBus<7> has been removed.
-WARNING:MapLib:701 - Signal ram1DataBus<6> connected to top level port
-   ram1DataBus<6> has been removed.
-WARNING:MapLib:701 - Signal ram1DataBus<5> connected to top level port
-   ram1DataBus<5> has been removed.
-WARNING:MapLib:701 - Signal ram1DataBus<4> connected to top level port
-   ram1DataBus<4> has been removed.
-WARNING:MapLib:701 - Signal ram1DataBus<3> connected to top level port
-   ram1DataBus<3> has been removed.
-WARNING:MapLib:701 - Signal ram1DataBus<2> connected to top level port
-   ram1DataBus<2> has been removed.
-WARNING:MapLib:701 - Signal ram1DataBus<1> connected to top level port
-   ram1DataBus<1> has been removed.
-WARNING:MapLib:701 - Signal ram1DataBus<0> connected to top level port
-   ram1DataBus<0> has been removed.
-WARNING:MapLib:701 - Signal physical_mem_bus<15> connected to top level port
-   physical_mem_bus<15> has been removed.
-WARNING:MapLib:701 - Signal physical_mem_bus<14> connected to top level port
-   physical_mem_bus<14> has been removed.
-WARNING:MapLib:701 - Signal physical_mem_bus<13> connected to top level port
-   physical_mem_bus<13> has been removed.
-WARNING:MapLib:701 - Signal physical_mem_bus<12> connected to top level port
-   physical_mem_bus<12> has been removed.
-WARNING:MapLib:701 - Signal physical_mem_bus<11> connected to top level port
-   physical_mem_bus<11> has been removed.
-WARNING:MapLib:701 - Signal physical_mem_bus<10> connected to top level port
-   physical_mem_bus<10> has been removed.
-WARNING:MapLib:701 - Signal physical_mem_bus<9> connected to top level port
-   physical_mem_bus<9> has been removed.
-WARNING:MapLib:701 - Signal physical_mem_bus<8> connected to top level port
-   physical_mem_bus<8> has been removed.
-WARNING:MapLib:701 - Signal physical_mem_bus<7> connected to top level port
-   physical_mem_bus<7> has been removed.
-WARNING:MapLib:701 - Signal physical_mem_bus<6> connected to top level port
-   physical_mem_bus<6> has been removed.
-WARNING:MapLib:701 - Signal physical_mem_bus<5> connected to top level port
-   physical_mem_bus<5> has been removed.
-WARNING:MapLib:701 - Signal physical_mem_bus<4> connected to top level port
-   physical_mem_bus<4> has been removed.
-WARNING:MapLib:701 - Signal physical_mem_bus<3> connected to top level port
-   physical_mem_bus<3> has been removed.
-WARNING:MapLib:701 - Signal physical_mem_bus<2> connected to top level port
-   physical_mem_bus<2> has been removed.
-WARNING:MapLib:701 - Signal physical_mem_bus<1> connected to top level port
-   physical_mem_bus<1> has been removed.
-WARNING:MapLib:701 - Signal physical_mem_bus<0> connected to top level port
-   physical_mem_bus<0> has been removed.
-WARNING:PhysDesignRules:367 - The signal <u_txd_IBUF> is incomplete. The signal
-   does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <dataReady_1_IBUF> is incomplete. The
-   signal does not drive any load pins in the design.
+WARNING:Pack:266 - The function generator naive/calculator/res_cmp_eq00031
+   failed to merge with F5 multiplexer naive/calculator/res_mux0000<5>110_f5. 
+   There is a conflict for the FXMUX.  The design will exhibit suboptimal
+   timing.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net virtualMemory/serial2/wrn
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:367 - The signal <clkClick_IBUF> is incomplete. The
    signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <tbre_1_IBUF> is incomplete. The signal
-   does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <tsre_1_IBUF> is incomplete. The signal
-   does not drive any load pins in the design.
 
 Section 3 - Informational
 -------------------------
 INFO:LIT:243 - Logical network clkClick_IBUF has no load.
-INFO:LIT:395 - The above info message is repeated 4 more times for the following
-   (max. 5 shown):
-   u_txd_IBUF,
-   tbre_1_IBUF,
-   dataReady_1_IBUF,
-   tsre_1_IBUF
-   To see the details of these info messages, please use the -detail switch.
 INFO:MapLib:562 - No environment variables are currently set.
 INFO:LIT:244 - All of the single ended outputs in this design are using slew
    rate limited output drivers. The delay on speed critical single ended outputs
@@ -154,122 +100,10 @@ INFO:LIT:244 - All of the single ended outputs in this design are using slew
 
 Section 4 - Removed Logic Summary
 ---------------------------------
-  64 block(s) removed
    2 block(s) optimized away
-  40 signal(s) removed
 
 Section 5 - Removed Logic
 -------------------------
-
-The trimmed logic reported below is either:
-   1. part of a cycle
-   2. part of disabled logic
-   3. a side-effect of other trimmed logic
-
-The signal "naive/MeMemResultFF/out<0>" is unused and has been removed.
- Unused block "naive/MeMemResultFF/out_0" (FF) removed.
-The signal "naive/MeMemResultFF/out<1>" is unused and has been removed.
- Unused block "naive/MeMemResultFF/out_1" (FF) removed.
-The signal "naive/MeMemResultFF/out<10>" is unused and has been removed.
- Unused block "naive/MeMemResultFF/out_10" (FF) removed.
-The signal "naive/MeMemResultFF/out<11>" is unused and has been removed.
- Unused block "naive/MeMemResultFF/out_11" (FF) removed.
-The signal "naive/MeMemResultFF/out<12>" is unused and has been removed.
- Unused block "naive/MeMemResultFF/out_12" (FF) removed.
-The signal "naive/MeMemResultFF/out<13>" is unused and has been removed.
- Unused block "naive/MeMemResultFF/out_13" (FF) removed.
-The signal "naive/MeMemResultFF/out<14>" is unused and has been removed.
- Unused block "naive/MeMemResultFF/out_14" (FF) removed.
-The signal "naive/MeMemResultFF/out<15>" is unused and has been removed.
- Unused block "naive/MeMemResultFF/out_15" (FF) removed.
-The signal "naive/MeMemResultFF/out<2>" is unused and has been removed.
- Unused block "naive/MeMemResultFF/out_2" (FF) removed.
-The signal "naive/MeMemResultFF/out<3>" is unused and has been removed.
- Unused block "naive/MeMemResultFF/out_3" (FF) removed.
-The signal "naive/MeMemResultFF/out<4>" is unused and has been removed.
- Unused block "naive/MeMemResultFF/out_4" (FF) removed.
-The signal "naive/MeMemResultFF/out<5>" is unused and has been removed.
- Unused block "naive/MeMemResultFF/out_5" (FF) removed.
-The signal "naive/MeMemResultFF/out<6>" is unused and has been removed.
- Unused block "naive/MeMemResultFF/out_6" (FF) removed.
-The signal "naive/MeMemResultFF/out<7>" is unused and has been removed.
- Unused block "naive/MeMemResultFF/out_7" (FF) removed.
-The signal "naive/MeMemResultFF/out<8>" is unused and has been removed.
- Unused block "naive/MeMemResultFF/out_8" (FF) removed.
-The signal "naive/MeMemResultFF/out<9>" is unused and has been removed.
- Unused block "naive/MeMemResultFF/out_9" (FF) removed.
-The signal "physical_mem_bus<0>" is unused and has been removed.
- Unused block "physical_mem_bus_0_OBUFT" (TRI) removed.
-The signal "physical_mem_bus<10>" is unused and has been removed.
- Unused block "physical_mem_bus_10_OBUFT" (TRI) removed.
-The signal "physical_mem_bus<11>" is unused and has been removed.
- Unused block "physical_mem_bus_11_OBUFT" (TRI) removed.
-The signal "physical_mem_bus<12>" is unused and has been removed.
- Unused block "physical_mem_bus_12_OBUFT" (TRI) removed.
-The signal "physical_mem_bus<13>" is unused and has been removed.
- Unused block "physical_mem_bus_13_OBUFT" (TRI) removed.
-The signal "physical_mem_bus<14>" is unused and has been removed.
- Unused block "physical_mem_bus_14_OBUFT" (TRI) removed.
-The signal "physical_mem_bus<15>" is unused and has been removed.
- Unused block "physical_mem_bus_15_OBUFT" (TRI) removed.
-The signal "physical_mem_bus<1>" is unused and has been removed.
- Unused block "physical_mem_bus_1_OBUFT" (TRI) removed.
-The signal "physical_mem_bus<2>" is unused and has been removed.
- Unused block "physical_mem_bus_2_OBUFT" (TRI) removed.
-The signal "physical_mem_bus<3>" is unused and has been removed.
- Unused block "physical_mem_bus_3_OBUFT" (TRI) removed.
-The signal "physical_mem_bus<4>" is unused and has been removed.
- Unused block "physical_mem_bus_4_OBUFT" (TRI) removed.
-The signal "physical_mem_bus<5>" is unused and has been removed.
- Unused block "physical_mem_bus_5_OBUFT" (TRI) removed.
-The signal "physical_mem_bus<6>" is unused and has been removed.
- Unused block "physical_mem_bus_6_OBUFT" (TRI) removed.
-The signal "physical_mem_bus<7>" is unused and has been removed.
- Unused block "physical_mem_bus_7_OBUFT" (TRI) removed.
-The signal "physical_mem_bus<8>" is unused and has been removed.
- Unused block "physical_mem_bus_8_OBUFT" (TRI) removed.
-The signal "physical_mem_bus<9>" is unused and has been removed.
- Unused block "physical_mem_bus_9_OBUFT" (TRI) removed.
-The signal "ram1DataBus<0>" is unused and has been removed.
- Unused block "ram1DataBus_0_OBUFT" (TRI) removed.
-The signal "ram1DataBus<1>" is unused and has been removed.
- Unused block "ram1DataBus_1_OBUFT" (TRI) removed.
-The signal "ram1DataBus<2>" is unused and has been removed.
- Unused block "ram1DataBus_2_OBUFT" (TRI) removed.
-The signal "ram1DataBus<3>" is unused and has been removed.
- Unused block "ram1DataBus_3_OBUFT" (TRI) removed.
-The signal "ram1DataBus<4>" is unused and has been removed.
- Unused block "ram1DataBus_4_OBUFT" (TRI) removed.
-The signal "ram1DataBus<5>" is unused and has been removed.
- Unused block "ram1DataBus_5_OBUFT" (TRI) removed.
-The signal "ram1DataBus<6>" is unused and has been removed.
- Unused block "ram1DataBus_6_OBUFT" (TRI) removed.
-The signal "ram1DataBus<7>" is unused and has been removed.
- Unused block "ram1DataBus_7_OBUFT" (TRI) removed.
-Unused block "physical_mem_bus<0>" (PAD) removed.
-Unused block "physical_mem_bus<10>" (PAD) removed.
-Unused block "physical_mem_bus<11>" (PAD) removed.
-Unused block "physical_mem_bus<12>" (PAD) removed.
-Unused block "physical_mem_bus<13>" (PAD) removed.
-Unused block "physical_mem_bus<14>" (PAD) removed.
-Unused block "physical_mem_bus<15>" (PAD) removed.
-Unused block "physical_mem_bus<1>" (PAD) removed.
-Unused block "physical_mem_bus<2>" (PAD) removed.
-Unused block "physical_mem_bus<3>" (PAD) removed.
-Unused block "physical_mem_bus<4>" (PAD) removed.
-Unused block "physical_mem_bus<5>" (PAD) removed.
-Unused block "physical_mem_bus<6>" (PAD) removed.
-Unused block "physical_mem_bus<7>" (PAD) removed.
-Unused block "physical_mem_bus<8>" (PAD) removed.
-Unused block "physical_mem_bus<9>" (PAD) removed.
-Unused block "ram1DataBus<0>" (PAD) removed.
-Unused block "ram1DataBus<1>" (PAD) removed.
-Unused block "ram1DataBus<2>" (PAD) removed.
-Unused block "ram1DataBus<3>" (PAD) removed.
-Unused block "ram1DataBus<4>" (PAD) removed.
-Unused block "ram1DataBus<5>" (PAD) removed.
-Unused block "ram1DataBus<6>" (PAD) removed.
-Unused block "ram1DataBus<7>" (PAD) removed.
 
 Optimized Block(s):
 TYPE 		BLOCK
@@ -324,9 +158,33 @@ Section 6 - IOB Properties
 | physical_mem_addr<15>              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
 | physical_mem_addr<16>              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
 | physical_mem_addr<17>              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| physical_mem_bus<0>                | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| physical_mem_bus<1>                | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| physical_mem_bus<2>                | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| physical_mem_bus<3>                | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| physical_mem_bus<4>                | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| physical_mem_bus<5>                | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| physical_mem_bus<6>                | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| physical_mem_bus<7>                | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| physical_mem_bus<8>                | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| physical_mem_bus<9>                | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| physical_mem_bus<10>               | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| physical_mem_bus<11>               | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| physical_mem_bus<12>               | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| physical_mem_bus<13>               | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| physical_mem_bus<14>               | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| physical_mem_bus<15>               | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
 | physical_mem_enable                | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
 | physical_mem_read                  | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
 | physical_mem_write                 | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| ram1DataBus<0>                     | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| ram1DataBus<1>                     | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| ram1DataBus<2>                     | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| ram1DataBus<3>                     | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| ram1DataBus<4>                     | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| ram1DataBus<5>                     | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| ram1DataBus<6>                     | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| ram1DataBus<7>                     | IOB              | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
 | ram1En_1                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
 | ram1Oe_1                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
 | ram1We_1                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |

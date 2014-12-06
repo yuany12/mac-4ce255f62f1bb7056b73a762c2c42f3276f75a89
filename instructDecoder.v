@@ -1,4 +1,4 @@
-include "globalDefines.v";
+//`include "globalDefines.v"
 
 module instructionDecoder (
   input clk, rst,

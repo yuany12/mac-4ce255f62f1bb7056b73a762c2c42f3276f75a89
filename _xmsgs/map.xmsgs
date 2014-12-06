@@ -8,105 +8,19 @@
 <msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">clkClick_IBUF</arg> has no load.
 </msg>
 
-<msg type="info" file="LIT" num="395" delta="new" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">4</arg> more times for the following (max. 5 shown):
-<arg fmt="%s" index="3">u_txd_IBUF,
-tbre_1_IBUF,
-dataReady_1_IBUF,
-tsre_1_IBUF</arg>
-To see the details of these <arg fmt="%s" index="4">info</arg> messages, please use the -detail switch.
-</msg>
-
 <msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">ram1DataBus&lt;7&gt;</arg> connected to top level port <arg fmt="%s" index="2">ram1DataBus&lt;7&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">ram1DataBus&lt;6&gt;</arg> connected to top level port <arg fmt="%s" index="2">ram1DataBus&lt;6&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">ram1DataBus&lt;5&gt;</arg> connected to top level port <arg fmt="%s" index="2">ram1DataBus&lt;5&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">ram1DataBus&lt;4&gt;</arg> connected to top level port <arg fmt="%s" index="2">ram1DataBus&lt;4&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">ram1DataBus&lt;3&gt;</arg> connected to top level port <arg fmt="%s" index="2">ram1DataBus&lt;3&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">ram1DataBus&lt;2&gt;</arg> connected to top level port <arg fmt="%s" index="2">ram1DataBus&lt;2&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">ram1DataBus&lt;1&gt;</arg> connected to top level port <arg fmt="%s" index="2">ram1DataBus&lt;1&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">ram1DataBus&lt;0&gt;</arg> connected to top level port <arg fmt="%s" index="2">ram1DataBus&lt;0&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">physical_mem_bus&lt;15&gt;</arg> connected to top level port <arg fmt="%s" index="2">physical_mem_bus&lt;15&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">physical_mem_bus&lt;14&gt;</arg> connected to top level port <arg fmt="%s" index="2">physical_mem_bus&lt;14&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">physical_mem_bus&lt;13&gt;</arg> connected to top level port <arg fmt="%s" index="2">physical_mem_bus&lt;13&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">physical_mem_bus&lt;12&gt;</arg> connected to top level port <arg fmt="%s" index="2">physical_mem_bus&lt;12&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">physical_mem_bus&lt;11&gt;</arg> connected to top level port <arg fmt="%s" index="2">physical_mem_bus&lt;11&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">physical_mem_bus&lt;10&gt;</arg> connected to top level port <arg fmt="%s" index="2">physical_mem_bus&lt;10&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">physical_mem_bus&lt;9&gt;</arg> connected to top level port <arg fmt="%s" index="2">physical_mem_bus&lt;9&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">physical_mem_bus&lt;8&gt;</arg> connected to top level port <arg fmt="%s" index="2">physical_mem_bus&lt;8&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">physical_mem_bus&lt;7&gt;</arg> connected to top level port <arg fmt="%s" index="2">physical_mem_bus&lt;7&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">physical_mem_bus&lt;6&gt;</arg> connected to top level port <arg fmt="%s" index="2">physical_mem_bus&lt;6&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">physical_mem_bus&lt;5&gt;</arg> connected to top level port <arg fmt="%s" index="2">physical_mem_bus&lt;5&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">physical_mem_bus&lt;4&gt;</arg> connected to top level port <arg fmt="%s" index="2">physical_mem_bus&lt;4&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">physical_mem_bus&lt;3&gt;</arg> connected to top level port <arg fmt="%s" index="2">physical_mem_bus&lt;3&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">physical_mem_bus&lt;2&gt;</arg> connected to top level port <arg fmt="%s" index="2">physical_mem_bus&lt;2&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">physical_mem_bus&lt;1&gt;</arg> connected to top level port <arg fmt="%s" index="2">physical_mem_bus&lt;1&gt;</arg> has been removed.
-</msg>
-
-<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">physical_mem_bus&lt;0&gt;</arg> connected to top level port <arg fmt="%s" index="2">physical_mem_bus&lt;0&gt;</arg> has been removed.
 </msg>
 
 <msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
 </msg>
 
-<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">u_txd_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">naive/calculator/res_cmp_eq00031</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">naive/calculator/res_mux0000&lt;5&gt;110_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
 </msg>
 
-<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">dataReady_1_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">virtualMemory/serial2/wrn</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
 </msg>
 
 <msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">clkClick_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
-</msg>
-
-<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">tbre_1_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
-</msg>
-
-<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">tsre_1_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
 </msg>
 
 </messages>

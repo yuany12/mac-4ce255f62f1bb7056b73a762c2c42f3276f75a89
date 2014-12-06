@@ -29,7 +29,7 @@ wire [15:0] memAaddr, memBaddr, memAdataRead, memBdataRead, MeMemResult;
 
 wire [1:0] memRW;
 wire [2:0] index;
-wire [15:0] physicalMemAaddr, physicalMemBaddr, ramAdataRead, ramBdataRead, IfPC, IfIR,
+wire [15:0] physicalMemAaddr, physicalMemBaddr, /*ramAdataRead, ramBdataRead,*/ IfPC, IfIR,
 		ExCalResult, MeCalResult;
 
 
@@ -132,13 +132,13 @@ VirtualMemory virtualMemory(
   
   .virtualAddrA(memAaddr),
   .actualRamAddrA(physicalMemAaddr),
-  .ramDataA(ramAdataRead),
+//  .ramDataA(ramAdataRead),
   .realDataA(memAdataRead),
   .indexA(index),
   
   .virtualAddrB(memBaddr),
   .actualRamAddrB(physicalMemBaddr),
-  .ramDataB(ramBdataRead),
+//  .ramDataB(ramBdataRead),
   .realDataB(memBdataRead),
 //  .indexB(indexB),
   .tbre_1(tbre_1),
